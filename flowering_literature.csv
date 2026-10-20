@@ -1,0 +1,63 @@
+symbol,locus,uniprot_primary,uniprot,protein
+FT,AT1G65480,FT,Q9SXZ2,Protein FLOWERING LOCUS T
+TSF,AT4G20370,TSF,Q9S7R5,Protein TWIN SISTER of FT (TFL1-like protein)
+SOC1,AT2G45660,SOC1,O64645,MADS-box protein SOC1 (Agamous-like MADS-box protein AGL20) (Protein SUPPRESSOR 
+AGL24,AT4G24540,AGL24,O82794,MADS-box protein AGL24 (Protein AGAMOUS-LIKE 24)
+FD,AT4G35900,FD,Q84JK2,Protein FD (bZIP transcription factor 14) (AtbZIP14)
+LFY,AT5G61850,LFY,Q00958,Protein LEAFY
+AP1,AT1G69120,AP1,P35631,Floral homeotic protein APETALA 1 (Agamous-like MADS-box protein AGL7)
+FUL,AT5G60910,AGL8,Q38876,Agamous-like MADS-box protein AGL8 (Floral homeotic protein AGL8) (Transcription
+TFL1,AT5G03840,TFL1,P93003,Protein TERMINAL FLOWER 1
+SVP,AT2G22540,SVP,Q9FVC1,MADS-box protein SVP (Protein SHORT VEGETATIVE PHASE)
+FLC,AT5G10140,FLC,Q9S7Q7,MADS-box protein FLOWERING LOCUS C (MADS-box protein FLOWERING LOCUS F)
+FLM,AT1G77080,AGL27,Q9AT76,Agamous-like MADS-box protein AGL27 (MADS box FLC1-like nuclear protein) (Protei
+MAF5,AT5G65080,MAF5,Q683D7,Protein MADS AFFECTING FLOWERING 5 (MADS box protein FCL1) (MADS-box protein AGA
+FRI,AT4G00650,FRI,Q67Z93,Inactive protein FRIGIDA
+FES1,AT2G33835,FES1,Q84VG7,Protein FRIGIDA-ESSENTIAL 1 (Zinc finger CCCH domain-containing protein 27) (AtC
+SUF4,AT1G30970,SUF4,Q9C5G0,Protein SUPPRESSOR OF FRI 4
+FLX,AT2G30120,FLX,F4IMQ0,Protein FLC EXPRESSOR (AtFLX) (Protein SUPPRESSOR OF FRI 5)
+PIE1,AT3G12810,PIE1,Q7X9V2,Protein PHOTOPERIOD-INDEPENDENT EARLY FLOWERING 1 (EC 3.6.4.12) (Independent ear
+EFS,AT1G77300,ASHH2,Q2LAE1,Histone-lysine N-methyltransferase ASHH2 (EC 2.1.1.-) (ASH1 homolog 2) (H3-K4-HM
+ELF7,AT1G79730,VIP2,F4HQA1,Protein PAF1 homolog (Protein EARLY FLOWERING 7) (Protein VERNALIZATION INDEPEND
+ELF8,AT2G06210,VIP6,B5X0I6,Protein CTR9 homolog (Protein EARLY FLOWERING 8) (Protein VERNALIZATION INDEPEND
+VIN3,AT5G57380,VIN3,Q9FIE3,Protein VERNALIZATION INSENSITIVE 3
+VRN1,AT3G18990,VRN1,Q8L3W1,B3 domain-containing transcription factor VRN1 (Protein VERNALIZATION 1)
+VRN2,AT4G16845,VRN2,Q8W5B1,Polycomb group protein VERNALIZATION 2
+FCA,AT4G16280,FCA,O04425,Flowering time control protein FCA
+FPA,AT2G43410,FPA,Q8LPQ9,Flowering time control protein FPA
+FVE,AT2G19520,MSI4,O22607,WD-40 repeat-containing protein MSI4 (Altered cold-responsive gene 1 protein) (N
+FLD,AT3G10390,FLD,Q9CAE3,Protein FLOWERING LOCUS D (EC 1.-.-.-) (Protein SUPPRESSOR OF OVEREXPRESSED FCA 
+LD,AT4G02560,LD,Q38796,Homeobox protein LUMINIDEPENDENS
+FY,AT5G13480,FY,Q6NLV4,Flowering time control protein FY
+FLK,AT3G04610,FLK,Q9SR13,Flowering locus K homology domain (Flowering locus KH domain)
+CO,AT5G15840,CO,Q39057,Zinc finger protein CONSTANS
+GI,AT1G22770,GI,Q9SQI2,Protein GIGANTEA
+FKF1,AT1G68050,ADO3,Q9C9W9,Adagio protein 3 (F-box only protein 2a) (FBX2a) (Flavin-binding kelch repeat F-
+CDF1,AT5G62430,CDF1,Q8W1E3,Cyclic dof factor 1 (Dof zinc finger protein DOF5.5) (AtDOF5.5)
+ZTL,AT5G57360,ADO1,Q94BT6,Adagio protein 1 (Clock-associated PAS protein ZTL) (F-box only protein 2b) (FBX
+ELF3,AT2G25930,ELF3,O82804,Protein EARLY FLOWERING 3 (Nematode-responsive protein)
+ELF4,AT2G40080,ELF4,O04211,Protein EARLY FLOWERING 4 (Protein ARRHYTHMIC 44)
+LUX,AT3G46640,LUX,Q9SNB4,Transcription factor LUX (Protein LUX ARRHYTHMO) (Protein PHYTOCLOCK 1)
+LHY,AT1G01060,LHY,Q6R0H1,Protein LHY (MYB-related transcription factor LHY) (Protein LATE ELONGATED HYPOC
+CCA1,AT2G46830,CCA1,P92973,Protein CCA1 (MYB-related transcription factor CCA1) (Protein CIRCADIAN CLOCK AS
+TOC1,AT5G61380,APRR1,Q9LKL2,Two-component response regulator-like APRR1 (ABI3-interacting protein 1) (Pseudo
+PHYA,AT1G09570,PHYA,P14712,Phytochrome A (Protein ELONGATED HYPOCOTYL 8) (Protein FAR RED ELONGATED 1) (Pro
+PHYB,AT2G18790,PHYB,P14713,Phytochrome B (Protein LONG HYPOCOTYL 3) (Protein OUT OF PHASE 1)
+CRY1,AT4G08920,CRY1,Q43125,Cryptochrome-1 (AtCry) (Atcry1) (Blue light photoreceptor) (Protein BLUE LIGHT U
+CRY2,AT1G04400,CRY2,Q96524,Cryptochrome-2 (Atcry2) (Blue light photoreceptor) (Protein PHR homolog 1) (AtPH
+COP1,AT2G32950,COP1,P43254,E3 ubiquitin-protein ligase COP1 (EC 2.3.2.27) (Constitutive photomorphogenesis 
+SPA1,AT2G46340,SPA1,Q9SYX2,Protein SUPPRESSOR OF PHYA-105 1 (EC 2.7.-.-)
+HOS1,AT2G39810,HOS1,Q84JU6,E3 ubiquitin-protein ligase HOS1 (EC 2.3.2.27) (Protein HIGH EXPRESSION OF OSMOT
+PFT1,AT1G25540,MED25,Q7XYY2,Mediator of RNA polymerase II transcription subunit 25 (AtMED25) (Phytochrome an
+SPL3,AT2G33810,SPL3,P93015,Squamosa promoter-binding-like protein 3
+SPL9,AT2G42200,SPL9,Q700W2,Squamosa promoter-binding-like protein 9
+SPL15,AT3G57920,SPL15,Q9M2Q6,Squamosa promoter-binding-like protein 15
+TOE1,AT2G28550,RAP2-7,Q9SK03,Ethylene-responsive transcription factor RAP2-7 (Protein RELATED TO APETALA2 7) 
+TOE2,AT5G60120,TOE2,Q9LVG2,AP2-like ethylene-responsive transcription factor TOE2 (Protein TARGET OF EAT 2)
+SMZ,AT3G54990,SMZ,Q6PV68,AP2-like ethylene-responsive transcription factor SMZ (Protein SCHLAFMUTZE)
+SNZ,AT2G39250,SNZ,Q6PV67,AP2-like ethylene-responsive transcription factor SNZ (Protein SCHNARCHZAPFEN)
+TEM1,AT1G25560,TEM1,Q9C6M5,AP2/ERF and B3 domain-containing transcription repressor TEM1 (Protein TEMPRANIL
+TEM2,AT1G68840,RAV2,P82280,AP2/ERF and B3 domain-containing transcription repressor RAV2 (Ethylene-responsi
+GAI,AT1G14920,GAI,Q9LQT8,DELLA protein GAI (GRAS family protein 3) (AtGRAS-3) (Gibberellic acid-insensiti
+RGA,AT2G01570,RGA,Q9SLH3,DELLA protein RGA (GAI-related sequence) (GRAS family protein 10) (AtGRAS-10) (R
+SPY,AT3G11540,SPY,Q96301,Probable UDP-N-acetylglucosamine--peptide N-acetylglucosaminyltransferase SPINDL

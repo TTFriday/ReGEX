@@ -1,0 +1,14 @@
+{
+  "pair_id": 0,
+  "drug": "DB00960",
+  "protein": "P28222",
+  "drug_name": "Pindolol",
+  "target_name": "HTR1B",
+  "p_full": 0.99999999999992,
+  "p_keep": 1.0,
+  "p_drop": 0.0021957367139601,
+  "K": 504,
+  "n_edges": 5043,
+  "display_edges": 12,
+  "selection": "First saved DTINet test query; displayed incident edges selected only after fixing the query."
+}

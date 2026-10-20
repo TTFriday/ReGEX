@@ -1,0 +1,18 @@
+{
+  "pagelink": {
+    "alpha": 0.01,
+    "beta": 0.001
+  },
+  "gnnexplainer": {
+    "lam_size": 0.5
+  },
+  "pgexplainer": {
+    "lam_size": 0.5
+  },
+  "regex": {
+    "lam_size": 0.02,
+    "lam_nec": 2.0,
+    "lam_geom": 0.01,
+    "lam_rel": 1.0
+  }
+}

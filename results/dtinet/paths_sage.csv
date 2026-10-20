@@ -1,0 +1,1537 @@
+model,pair_id,cohort,method,connected,conn_len,n_paths,curated_hit,n_curated_in_sub,rel_hist
+sage,0,test,regex,True,2.0,8,,0,"{""drug_disease"": 9, ""protein_disease"": 19}"
+sage,0,test,gnnexplainer,True,2.0,8,,0,"{""drug_disease"": 9, ""protein_disease"": 17}"
+sage,0,test,pgexplainer,True,2.0,1,,0,"{""drug_disease"": 1, ""protein_disease"": 1}"
+sage,0,test,pagelink,True,2.0,1,,0,"{""drug_disease"": 1, ""protein_disease"": 1}"
+sage,0,test,saliency,True,2.0,8,,0,"{""drug_disease"": 8, ""protein_disease"": 17}"
+sage,0,test,ig,True,2.0,8,,0,"{""drug_disease"": 8, ""protein_disease"": 18}"
+sage,0,test,distance,True,2.0,3,,0,"{""drug_disease"": 7, ""protein_disease"": 5}"
+sage,0,test,random,False,12.0,0,,0,{}
+sage,1,test,regex,False,6.0,5,,0,"{""drug_disease"": 7, ""protein_disease"": 13}"
+sage,1,test,gnnexplainer,True,4.0,1,,0,"{""drug_disease"": 1, ""protein_disease"": 3}"
+sage,1,test,pgexplainer,False,,0,,0,{}
+sage,1,test,pagelink,False,,0,,0,{}
+sage,1,test,saliency,False,,4,,0,"{""drug_se"": 16}"
+sage,1,test,ig,False,,0,,0,{}
+sage,1,test,distance,True,2.0,0,,0,{}
+sage,1,test,random,False,6.0,5,,0,"{""drug_se"": 8, ""drug_disease"": 5, ""protein_disease"": 7}"
+sage,2,test,regex,True,2.0,8,,0,"{""drug_disease"": 8, ""protein_disease"": 21}"
+sage,2,test,gnnexplainer,True,2.0,8,,0,"{""drug_disease"": 8, ""protein_disease"": 17}"
+sage,2,test,pgexplainer,True,2.0,0,,0,{}
+sage,2,test,pagelink,True,2.0,8,,0,"{""dti"": 2, ""protein_disease"": 18, ""drug_disease"": 8}"
+sage,2,test,saliency,True,2.0,8,,0,"{""drug_disease"": 8, ""protein_disease"": 17}"
+sage,2,test,ig,True,2.0,8,,0,"{""drug_disease"": 8, ""protein_disease"": 17}"
+sage,2,test,distance,True,2.0,8,,0,"{""drug_disease"": 8, ""protein_disease"": 17}"
+sage,2,test,random,True,4.0,0,,0,{}
+sage,3,test,regex,True,2.0,8,,0,"{""drug_disease"": 9, ""protein_disease"": 19}"
+sage,3,test,gnnexplainer,True,2.0,8,,0,"{""drug_disease"": 9, ""protein_disease"": 19}"
+sage,3,test,pgexplainer,True,4.0,0,,0,{}
+sage,3,test,pagelink,True,2.0,8,,0,"{""dti"": 3, ""protein_disease"": 19, ""drug_disease"": 5}"
+sage,3,test,saliency,True,2.0,8,,0,"{""drug_disease"": 8, ""protein_disease"": 15}"
+sage,3,test,ig,True,2.0,8,,0,"{""drug_disease"": 9, ""protein_disease"": 17}"
+sage,3,test,distance,True,2.0,0,,0,{}
+sage,3,test,random,False,10.0,4,,0,"{""drug_disease"": 4, ""protein_disease"": 12}"
+sage,4,test,regex,True,2.0,5,,0,"{""drug_disease"": 8, ""protein_disease"": 12}"
+sage,4,test,gnnexplainer,True,2.0,4,,0,"{""drug_disease"": 12, ""protein_disease"": 4}"
+sage,4,test,pgexplainer,False,,5,,0,"{""drug_se"": 10, ""drug_disease"": 5, ""protein_disease"": 5}"
+sage,4,test,pagelink,False,,0,,0,{}
+sage,4,test,saliency,True,2.0,1,,0,"{""drug_se"": 2, ""drug_disease"": 1, ""protein_disease"": 1}"
+sage,4,test,ig,True,4.0,5,,0,"{""drug_se"": 20}"
+sage,4,test,distance,True,2.0,5,,0,"{""drug_disease"": 16, ""protein_disease"": 4}"
+sage,4,test,random,True,2.0,8,,0,"{""drug_disease"": 9, ""protein_disease"": 19}"
+sage,5,test,regex,True,2.0,8,,0,"{""drug_disease"": 9, ""protein_disease"": 20}"
+sage,5,test,gnnexplainer,True,2.0,5,,0,"{""drug_se"": 20}"
+sage,5,test,pgexplainer,True,2.0,0,,0,{}
+sage,5,test,pagelink,True,2.0,8,,0,"{""drug_disease"": 8, ""protein_disease"": 17}"
+sage,5,test,saliency,True,4.0,2,,0,"{""drug_se"": 8}"
+sage,5,test,ig,True,4.0,2,,0,"{""drug_se"": 8}"
+sage,5,test,distance,True,2.0,1,,0,"{""drug_disease"": 1, ""protein_disease"": 3}"
+sage,5,test,random,False,,5,,0,"{""drug_disease"": 5, ""protein_disease"": 15}"
+sage,6,test,regex,True,2.0,8,,0,"{""drug_disease"": 8, ""protein_disease"": 20}"
+sage,6,test,gnnexplainer,True,2.0,8,,0,"{""drug_disease"": 8, ""protein_disease"": 18}"
+sage,6,test,pgexplainer,True,2.0,0,,0,{}
+sage,6,test,pagelink,True,2.0,8,,0,"{""drug_disease"": 6, ""protein_disease"": 20, ""dti"": 2}"
+sage,6,test,saliency,True,4.0,2,,0,"{""drug_disease"": 2, ""protein_disease"": 6}"
+sage,6,test,ig,True,2.0,8,,0,"{""drug_disease"": 8, ""protein_disease"": 20}"
+sage,6,test,distance,True,2.0,1,,0,"{""drug_disease"": 1, ""protein_disease"": 3}"
+sage,6,test,random,True,4.0,1,,0,"{""drug_disease"": 1, ""protein_disease"": 3}"
+sage,7,test,regex,False,,5,,0,"{""drug_se"": 20}"
+sage,7,test,gnnexplainer,True,2.0,5,,0,"{""drug_se"": 20}"
+sage,7,test,pgexplainer,False,,4,,0,"{""drug_se"": 16}"
+sage,7,test,pagelink,True,3.0,2,,0,"{""drug_se"": 4, ""drug_disease"": 2, ""protein_disease"": 2}"
+sage,7,test,saliency,True,2.0,5,,0,"{""drug_se"": 20}"
+sage,7,test,ig,True,2.0,5,,0,"{""drug_se"": 20}"
+sage,7,test,distance,True,2.0,8,,0,"{""drug_disease"": 8, ""protein_disease"": 17}"
+sage,7,test,random,False,6.0,1,,0,"{""drug_se"": 4}"
+sage,8,test,regex,False,8.0,5,,0,"{""drug_se"": 20}"
+sage,8,test,gnnexplainer,True,3.0,0,,0,{}
+sage,8,test,pgexplainer,False,,0,,0,{}
+sage,8,test,pagelink,False,,0,,0,{}
+sage,8,test,saliency,True,4.0,5,,0,"{""drug_se"": 20}"
+sage,8,test,ig,True,4.0,5,,0,"{""drug_se"": 20}"
+sage,8,test,distance,True,2.0,0,,0,{}
+sage,8,test,random,True,4.0,4,,0,"{""drug_disease"": 6, ""protein_disease"": 8, ""drug_se"": 2}"
+sage,9,test,regex,True,3.0,3,,0,"{""drug_se"": 6, ""dti"": 3, ""protein_disease"": 2}"
+sage,9,test,gnnexplainer,False,5.0,5,,0,"{""drug_se"": 14, ""drug_disease"": 4, ""protein_disease"": 2}"
+sage,9,test,pgexplainer,True,3.0,3,,0,"{""drug_se"": 4, ""dti"": 3, ""drug_disease"": 2}"
+sage,9,test,pagelink,True,3.0,3,,0,"{""drug_se"": 6, ""dti"": 3}"
+sage,9,test,saliency,True,3.0,5,,0,"{""drug_se"": 20}"
+sage,9,test,ig,True,3.0,0,,0,{}
+sage,9,test,distance,True,2.0,0,,0,{}
+sage,9,test,random,False,,5,,0,"{""drug_se"": 20}"
+sage,10,test,regex,False,,2,,0,"{""drug_disease"": 8}"
+sage,10,test,gnnexplainer,True,2.0,5,,0,"{""drug_disease"": 20}"
+sage,10,test,pgexplainer,False,,0,,0,{}
+sage,10,test,pagelink,False,6.0,5,,0,"{""drug_disease"": 7, ""protein_disease"": 9, ""ddi"": 4}"
+sage,10,test,saliency,False,,0,,0,{}
+sage,10,test,ig,False,,5,,0,"{""ddi"": 1, ""drug_disease"": 5, ""protein_disease"": 14}"
+sage,10,test,distance,True,2.0,0,,0,{}
+sage,10,test,random,False,,5,,0,"{""drug_disease"": 18, ""protein_disease"": 2}"
+sage,11,test,regex,True,2.0,8,,0,"{""drug_disease"": 8, ""protein_disease"": 19}"
+sage,11,test,gnnexplainer,True,2.0,8,,0,"{""drug_disease"": 8, ""protein_disease"": 17}"
+sage,11,test,pgexplainer,True,2.0,5,,0,"{""drug_disease"": 5, ""protein_disease"": 15}"
+sage,11,test,pagelink,True,2.0,8,,0,"{""drug_disease"": 9, ""protein_disease"": 17}"
+sage,11,test,saliency,True,2.0,2,,0,"{""ddi"": 2, ""drug_se"": 4, ""drug_disease"": 2}"
+sage,11,test,ig,True,2.0,8,,0,"{""drug_disease"": 8, ""protein_disease"": 15}"
+sage,11,test,distance,True,2.0,2,,0,"{""drug_disease"": 2, ""protein_disease"": 6}"
+sage,11,test,random,True,4.0,5,,0,"{""drug_disease"": 5, ""protein_disease"": 15}"
+sage,12,test,regex,False,5.0,0,,0,{}
+sage,12,test,gnnexplainer,False,6.0,5,,0,"{""drug_se"": 20}"
+sage,12,test,pgexplainer,True,4.0,5,,0,"{""drug_se"": 20}"
+sage,12,test,pagelink,True,3.0,2,,0,"{""ddi"": 1, ""drug_disease"": 2, ""protein_disease"": 2, ""drug_se"": 2}"
+sage,12,test,saliency,True,4.0,5,,0,"{""drug_se"": 20}"
+sage,12,test,ig,True,4.0,5,,0,"{""drug_se"": 20}"
+sage,12,test,distance,True,3.0,5,,0,"{""drug_se"": 20}"
+sage,12,test,random,False,,0,,0,{}
+sage,13,test,regex,True,2.0,8,,0,"{""drug_disease"": 8, ""protein_disease"": 21}"
+sage,13,test,gnnexplainer,True,2.0,8,,0,"{""drug_disease"": 8, ""protein_disease"": 15}"
+sage,13,test,pgexplainer,True,2.0,0,,0,{}
+sage,13,test,pagelink,True,2.0,8,,0,"{""drug_disease"": 8, ""protein_disease"": 18}"
+sage,13,test,saliency,False,6.0,0,,0,{}
+sage,13,test,ig,True,2.0,8,,0,"{""drug_disease"": 8, ""protein_disease"": 15}"
+sage,13,test,distance,True,2.0,0,,0,{}
+sage,13,test,random,False,6.0,5,,0,"{""drug_disease"": 13, ""protein_disease"": 7}"
+sage,14,test,regex,True,2.0,8,,0,"{""ddi"": 8, ""dti"": 8, ""protein_disease"": 12}"
+sage,14,test,gnnexplainer,False,7.0,0,,0,{}
+sage,14,test,pgexplainer,True,3.0,2,,0,"{""drug_disease"": 4, ""drug_se"": 4}"
+sage,14,test,pagelink,True,2.0,2,,0,"{""ddi"": 1, ""dti"": 2, ""drug_disease"": 2}"
+sage,14,test,saliency,True,2.0,8,,0,"{""ddi"": 8, ""dti"": 8, ""protein_disease"": 7}"
+sage,14,test,ig,True,2.0,8,,0,"{""ddi"": 8, ""dti"": 8, ""protein_disease"": 7}"
+sage,14,test,distance,True,2.0,0,,0,{}
+sage,14,test,random,False,11.0,5,,0,"{""drug_se"": 20}"
+sage,15,test,regex,True,4.0,0,,0,{}
+sage,15,test,gnnexplainer,True,2.0,5,,0,"{""drug_se"": 14, ""drug_disease"": 3, ""protein_disease"": 3}"
+sage,15,test,pgexplainer,False,,0,,0,{}
+sage,15,test,pagelink,True,2.0,5,,0,"{""drug_se"": 10, ""drug_disease"": 5, ""protein_disease"": 5}"
+sage,15,test,saliency,True,2.0,5,,0,"{""drug_se"": 20}"
+sage,15,test,ig,False,,5,,0,"{""drug_se"": 20}"
+sage,15,test,distance,True,2.0,3,,0,"{""drug_disease"": 3, ""protein_disease"": 9}"
+sage,15,test,random,False,6.0,5,,0,"{""drug_se"": 20}"
+sage,16,test,regex,True,2.0,8,,0,"{""drug_disease"": 10, ""protein_disease"": 18}"
+sage,16,test,gnnexplainer,True,2.0,0,,0,{}
+sage,16,test,pgexplainer,True,2.0,5,,0,"{""drug_disease"": 15, ""protein_disease"": 5}"
+sage,16,test,pagelink,True,2.0,8,,0,"{""drug_disease"": 8, ""protein_disease"": 17}"
+sage,16,test,saliency,False,8.0,0,,0,{}
+sage,16,test,ig,True,2.0,8,,0,"{""drug_disease"": 8, ""protein_disease"": 18}"
+sage,16,test,distance,True,2.0,0,,0,{}
+sage,16,test,random,False,6.0,1,,0,"{""dti"": 1, ""protein_disease"": 1, ""drug_disease"": 2}"
+sage,17,test,regex,True,2.0,5,,0,"{""ddi"": 7, ""drug_disease"": 12, ""drug_se"": 1}"
+sage,17,test,gnnexplainer,True,2.0,8,,0,"{""drug_disease"": 8, ""protein_disease"": 18}"
+sage,17,test,pgexplainer,False,10.0,4,,0,"{""drug_disease"": 8, ""drug_se"": 8}"
+sage,17,test,pagelink,True,2.0,2,,0,"{""drug_se"": 2, ""drug_disease"": 2, ""protein_disease"": 2}"
+sage,17,test,saliency,True,2.0,8,,0,"{""drug_disease"": 8, ""protein_disease"": 17}"
+sage,17,test,ig,True,2.0,8,,0,"{""drug_disease"": 8, ""protein_disease"": 20}"
+sage,17,test,distance,True,2.0,5,,0,"{""ddi"": 5, ""drug_se"": 13, ""drug_disease"": 2}"
+sage,17,test,random,True,4.0,0,,0,{}
+sage,18,test,regex,True,2.0,8,,0,"{""drug_disease"": 10, ""protein_disease"": 19}"
+sage,18,test,gnnexplainer,True,2.0,8,,0,"{""drug_disease"": 8, ""protein_disease"": 17}"
+sage,18,test,pgexplainer,False,6.0,0,,0,{}
+sage,18,test,pagelink,True,2.0,7,,0,"{""ddi"": 1, ""dti"": 1, ""protein_disease"": 17, ""drug_disease"": 6}"
+sage,18,test,saliency,True,2.0,8,,0,"{""drug_disease"": 8, ""protein_disease"": 17}"
+sage,18,test,ig,True,2.0,8,,0,"{""drug_disease"": 8, ""protein_disease"": 17}"
+sage,18,test,distance,True,2.0,0,,0,{}
+sage,18,test,random,False,10.0,0,,0,{}
+sage,19,test,regex,True,4.0,5,,0,"{""drug_se"": 20}"
+sage,19,test,gnnexplainer,False,8.0,0,,0,{}
+sage,19,test,pgexplainer,True,4.0,5,,0,"{""drug_se"": 20}"
+sage,19,test,pagelink,True,3.0,2,,0,"{""drug_se"": 2, ""drug_disease"": 2, ""protein_disease"": 2, ""ddi"": 1}"
+sage,19,test,saliency,True,4.0,5,,0,"{""drug_se"": 17, ""ddi"": 2, ""drug_disease"": 1}"
+sage,19,test,ig,True,4.0,1,,0,"{""drug_se"": 2, ""drug_disease"": 1, ""protein_disease"": 1}"
+sage,19,test,distance,True,4.0,5,,0,"{""drug_se"": 20}"
+sage,19,test,random,True,4.0,5,,0,"{""drug_se"": 20}"
+sage,20,test,regex,False,12.0,3,,0,"{""drug_se"": 12}"
+sage,20,test,gnnexplainer,False,10.0,5,,0,"{""drug_se"": 20}"
+sage,20,test,pgexplainer,False,,0,,0,{}
+sage,20,test,pagelink,False,,0,,0,{}
+sage,20,test,saliency,True,2.0,8,,0,"{""drug_disease"": 8, ""protein_disease"": 21}"
+sage,20,test,ig,False,,0,,0,{}
+sage,20,test,distance,True,2.0,1,,0,"{""drug_se"": 2, ""drug_disease"": 1, ""protein_disease"": 1}"
+sage,20,test,random,False,10.0,3,,0,"{""drug_disease"": 6, ""drug_se"": 6}"
+sage,21,test,regex,True,2.0,8,,0,"{""drug_disease"": 9, ""protein_disease"": 17}"
+sage,21,test,gnnexplainer,True,2.0,8,,0,"{""drug_disease"": 9, ""protein_disease"": 16}"
+sage,21,test,pgexplainer,True,2.0,0,,0,{}
+sage,21,test,pagelink,True,2.0,8,,0,"{""ddi"": 2, ""drug_disease"": 9, ""protein_disease"": 17}"
+sage,21,test,saliency,True,3.0,5,,0,"{""drug_se"": 20}"
+sage,21,test,ig,True,2.0,8,,0,"{""drug_disease"": 9, ""protein_disease"": 16}"
+sage,21,test,distance,True,2.0,8,,0,"{""drug_disease"": 8, ""protein_disease"": 17}"
+sage,21,test,random,False,10.0,0,,0,{}
+sage,22,test,regex,True,2.0,8,,0,"{""drug_disease"": 10, ""protein_disease"": 19}"
+sage,22,test,gnnexplainer,True,2.0,5,,0,"{""drug_disease"": 5, ""protein_disease"": 15}"
+sage,22,test,pgexplainer,True,2.0,0,,0,{}
+sage,22,test,pagelink,True,2.0,8,,0,"{""drug_disease"": 8, ""protein_disease"": 17}"
+sage,22,test,saliency,True,4.0,0,,0,{}
+sage,22,test,ig,True,2.0,8,,0,"{""drug_disease"": 8, ""protein_disease"": 17}"
+sage,22,test,distance,True,2.0,1,,0,"{""drug_disease"": 1, ""protein_disease"": 3}"
+sage,22,test,random,False,8.0,2,,0,"{""drug_disease"": 2, ""protein_disease"": 6}"
+sage,23,test,regex,False,,0,,0,{}
+sage,23,test,gnnexplainer,True,4.0,2,,0,"{""drug_se"": 4, ""drug_disease"": 2, ""protein_disease"": 2}"
+sage,23,test,pgexplainer,False,,5,,0,"{""drug_disease"": 5, ""protein_disease"": 15}"
+sage,23,test,pagelink,False,6.0,5,,0,"{""drug_se"": 10, ""drug_disease"": 8, ""protein_disease"": 2}"
+sage,23,test,saliency,False,10.0,5,,0,"{""drug_se"": 20}"
+sage,23,test,ig,False,10.0,5,,0,"{""drug_se"": 12, ""drug_disease"": 5, ""protein_disease"": 3}"
+sage,23,test,distance,True,2.0,1,,0,"{""drug_disease"": 3, ""protein_disease"": 1}"
+sage,23,test,random,True,4.0,5,,0,"{""drug_disease"": 16, ""protein_disease"": 4}"
+sage,24,test,regex,True,2.0,0,,0,{}
+sage,24,test,gnnexplainer,True,2.0,8,,0,"{""drug_disease"": 8, ""protein_disease"": 18}"
+sage,24,test,pgexplainer,True,2.0,0,,0,{}
+sage,24,test,pagelink,True,2.0,1,,0,"{""drug_disease"": 1, ""protein_disease"": 1}"
+sage,24,test,saliency,False,6.0,5,,0,"{""drug_se"": 18, ""ddi"": 2}"
+sage,24,test,ig,True,2.0,8,,0,"{""drug_disease"": 8, ""protein_disease"": 18}"
+sage,24,test,distance,True,2.0,3,,0,"{""drug_se"": 12}"
+sage,24,test,random,False,,5,,0,"{""drug_se"": 20}"
+sage,25,test,regex,True,2.0,8,,0,"{""drug_disease"": 11, ""protein_disease"": 13, ""dti"": 4}"
+sage,25,test,gnnexplainer,False,8.0,5,,0,"{""drug_disease"": 15, ""protein_disease"": 5}"
+sage,25,test,pgexplainer,True,2.0,1,,0,"{""drug_se"": 4}"
+sage,25,test,pagelink,True,2.0,8,,0,"{""drug_disease"": 14, ""dti"": 7, ""protein_disease"": 6}"
+sage,25,test,saliency,True,2.0,8,,0,"{""drug_disease"": 10, ""protein_disease"": 12, ""dti"": 3}"
+sage,25,test,ig,True,2.0,8,,0,"{""drug_disease"": 12, ""protein_disease"": 10, ""dti"": 5}"
+sage,25,test,distance,True,2.0,1,,0,"{""drug_disease"": 1, ""protein_disease"": 3}"
+sage,25,test,random,False,,0,,0,{}
+sage,26,test,regex,False,,5,,0,"{""drug_disease"": 15, ""protein_disease"": 5}"
+sage,26,test,gnnexplainer,True,2.0,5,,0,"{""drug_disease"": 15, ""protein_disease"": 5}"
+sage,26,test,pgexplainer,False,,5,,0,"{""drug_disease"": 5, ""protein_disease"": 15}"
+sage,26,test,pagelink,False,8.0,0,,0,{}
+sage,26,test,saliency,True,2.0,5,,0,"{""drug_disease"": 15, ""protein_disease"": 5}"
+sage,26,test,ig,True,4.0,5,,0,"{""drug_disease"": 15, ""protein_disease"": 5}"
+sage,26,test,distance,True,2.0,1,,0,"{""drug_disease"": 1, ""protein_disease"": 3}"
+sage,26,test,random,False,,5,,0,"{""drug_disease"": 18, ""protein_disease"": 2}"
+sage,27,test,regex,True,2.0,8,,0,"{""drug_disease"": 8, ""protein_disease"": 18}"
+sage,27,test,gnnexplainer,True,2.0,5,,0,"{""drug_disease"": 7, ""protein_disease"": 13}"
+sage,27,test,pgexplainer,False,,5,,0,"{""drug_disease"": 5, ""protein_disease"": 15}"
+sage,27,test,pagelink,True,2.0,0,,0,{}
+sage,27,test,saliency,True,2.0,4,,0,"{""drug_disease"": 4, ""protein_disease"": 12}"
+sage,27,test,ig,True,2.0,5,,0,"{""drug_disease"": 5, ""protein_disease"": 15}"
+sage,27,test,distance,True,2.0,0,,0,{}
+sage,27,test,random,False,10.0,5,,0,"{""drug_disease"": 6, ""protein_disease"": 14}"
+sage,28,test,regex,True,2.0,8,,0,"{""drug_disease"": 8, ""protein_disease"": 21}"
+sage,28,test,gnnexplainer,True,2.0,8,,0,"{""drug_disease"": 8, ""protein_disease"": 19}"
+sage,28,test,pgexplainer,True,2.0,5,,0,"{""drug_disease"": 5, ""protein_disease"": 15}"
+sage,28,test,pagelink,True,2.0,8,,0,"{""ddi"": 4, ""drug_disease"": 9, ""protein_disease"": 12}"
+sage,28,test,saliency,True,2.0,8,,0,"{""drug_disease"": 8, ""protein_disease"": 17}"
+sage,28,test,ig,True,2.0,8,,0,"{""drug_disease"": 10, ""protein_disease"": 14}"
+sage,28,test,distance,True,2.0,0,,0,{}
+sage,28,test,random,False,6.0,5,,0,"{""drug_disease"": 17, ""protein_disease"": 3}"
+sage,29,test,regex,False,8.0,0,,0,{}
+sage,29,test,gnnexplainer,True,3.0,5,,0,"{""drug_se"": 20}"
+sage,29,test,pgexplainer,False,,0,,0,{}
+sage,29,test,pagelink,False,10.0,5,,0,"{""drug_se"": 20}"
+sage,29,test,saliency,False,8.0,5,,0,"{""drug_se"": 20}"
+sage,29,test,ig,False,8.0,5,,0,"{""drug_se"": 20}"
+sage,29,test,distance,True,3.0,0,,0,{}
+sage,29,test,random,False,8.0,2,,0,"{""drug_se"": 8}"
+sage,30,test,regex,True,2.0,0,,0,{}
+sage,30,test,gnnexplainer,False,6.0,4,,0,"{""drug_disease"": 14, ""protein_disease"": 2}"
+sage,30,test,pgexplainer,True,3.0,0,,0,{}
+sage,30,test,pagelink,True,2.0,8,,0,"{""drug_se"": 6, ""dti"": 7, ""protein_disease"": 6, ""ddi"": 2, ""drug_disease"": 4}"
+sage,30,test,saliency,True,2.0,8,,0,"{""ddi"": 4, ""dti"": 6, ""protein_disease"": 8, ""drug_disease"": 4, ""drug_se"": 1}"
+sage,30,test,ig,True,2.0,8,,0,"{""ddi"": 8, ""dti"": 8, ""protein_disease"": 12}"
+sage,30,test,distance,True,2.0,1,,0,"{""drug_disease"": 1, ""protein_disease"": 3}"
+sage,30,test,random,False,10.0,0,,0,{}
+sage,31,test,regex,False,6.0,5,,0,"{""drug_disease"": 15, ""protein_disease"": 3, ""drug_se"": 2}"
+sage,31,test,gnnexplainer,True,2.0,8,,0,"{""drug_disease"": 8, ""protein_disease"": 17}"
+sage,31,test,pgexplainer,False,,0,,0,{}
+sage,31,test,pagelink,False,,0,,0,{}
+sage,31,test,saliency,True,2.0,0,,0,{}
+sage,31,test,ig,False,8.0,0,,0,{}
+sage,31,test,distance,True,2.0,2,,0,"{""drug_disease"": 2, ""protein_disease"": 6}"
+sage,31,test,random,False,,0,,0,{}
+sage,32,test,regex,True,3.0,5,,0,"{""drug_se"": 20}"
+sage,32,test,gnnexplainer,True,3.0,7,,0,"{""ddi"": 7, ""drug_disease"": 7, ""protein_disease"": 12}"
+sage,32,test,pgexplainer,False,,2,,0,"{""drug_se"": 6, ""drug_disease"": 2}"
+sage,32,test,pagelink,True,3.0,4,,0,"{""drug_se"": 8, ""drug_disease"": 4, ""protein_disease"": 4}"
+sage,32,test,saliency,True,3.0,2,,0,"{""drug_se"": 4, ""drug_disease"": 2, ""protein_disease"": 2}"
+sage,32,test,ig,True,3.0,5,,0,"{""drug_se"": 20}"
+sage,32,test,distance,True,3.0,5,,0,"{""drug_se"": 16, ""ddi"": 3, ""drug_disease"": 1}"
+sage,32,test,random,False,,5,,0,"{""drug_se"": 18, ""drug_disease"": 1, ""protein_disease"": 1}"
+sage,33,test,regex,True,2.0,8,,0,"{""drug_disease"": 8, ""protein_disease"": 19}"
+sage,33,test,gnnexplainer,True,2.0,8,,0,"{""drug_disease"": 8, ""protein_disease"": 17}"
+sage,33,test,pgexplainer,True,2.0,0,,0,{}
+sage,33,test,pagelink,True,2.0,8,,0,"{""dti"": 7, ""protein_disease"": 21, ""drug_disease"": 1}"
+sage,33,test,saliency,True,3.0,1,,0,"{""ddi"": 1, ""drug_se"": 2, ""drug_disease"": 1}"
+sage,33,test,ig,True,2.0,8,,0,"{""drug_disease"": 8, ""protein_disease"": 18}"
+sage,33,test,distance,True,2.0,5,,0,"{""drug_se"": 18, ""ddi"": 2}"
+sage,33,test,random,False,,5,,0,"{""drug_se"": 20}"
+sage,34,test,regex,True,2.0,8,,0,"{""drug_disease"": 10, ""protein_disease"": 18}"
+sage,34,test,gnnexplainer,True,2.0,8,,0,"{""drug_disease"": 9, ""protein_disease"": 14}"
+sage,34,test,pgexplainer,True,2.0,0,,0,{}
+sage,34,test,pagelink,True,2.0,8,,0,"{""drug_disease"": 9, ""protein_disease"": 14}"
+sage,34,test,saliency,True,2.0,8,,0,"{""drug_disease"": 8, ""protein_disease"": 17}"
+sage,34,test,ig,True,2.0,8,,0,"{""drug_disease"": 9, ""protein_disease"": 14}"
+sage,34,test,distance,True,2.0,4,,0,"{""drug_disease"": 8, ""drug_se"": 8}"
+sage,34,test,random,False,,5,,0,"{""drug_disease"": 6, ""protein_disease"": 14}"
+sage,35,test,regex,False,,4,,0,"{""drug_disease"": 6, ""protein_disease"": 10}"
+sage,35,test,gnnexplainer,True,4.0,4,,0,"{""drug_disease"": 4, ""protein_disease"": 12}"
+sage,35,test,pgexplainer,False,,5,,0,"{""drug_disease"": 5, ""protein_disease"": 15}"
+sage,35,test,pagelink,False,,0,,0,{}
+sage,35,test,saliency,True,4.0,3,,0,"{""drug_se"": 6, ""drug_disease"": 4, ""protein_disease"": 2}"
+sage,35,test,ig,True,4.0,3,,0,"{""drug_se"": 6, ""drug_disease"": 4, ""protein_disease"": 2}"
+sage,35,test,distance,True,2.0,4,,0,"{""drug_disease"": 5, ""protein_disease"": 11}"
+sage,35,test,random,False,6.0,5,,0,"{""drug_se"": 10, ""drug_disease"": 5, ""protein_disease"": 5}"
+sage,36,test,regex,True,2.0,5,,0,"{""drug_se"": 20}"
+sage,36,test,gnnexplainer,True,2.0,8,,0,"{""drug_disease"": 8, ""protein_disease"": 19}"
+sage,36,test,pgexplainer,True,2.0,6,,0,"{""drug_disease"": 6, ""protein_disease"": 11}"
+sage,36,test,pagelink,True,2.0,2,,0,"{""dti"": 1, ""protein_disease"": 3, ""drug_disease"": 1}"
+sage,36,test,saliency,True,2.0,8,,0,"{""drug_disease"": 5, ""protein_disease"": 19, ""dti"": 3}"
+sage,36,test,ig,True,2.0,8,,0,"{""drug_disease"": 8, ""protein_disease"": 20}"
+sage,36,test,distance,True,2.0,5,,0,"{""drug_se"": 20}"
+sage,36,test,random,False,6.0,4,,0,"{""drug_se"": 16}"
+sage,37,test,regex,True,2.0,4,,0,"{""drug_se"": 16}"
+sage,37,test,gnnexplainer,True,2.0,8,,0,"{""drug_disease"": 10, ""protein_disease"": 15}"
+sage,37,test,pgexplainer,False,5.0,0,,0,{}
+sage,37,test,pagelink,True,2.0,8,,0,"{""dti"": 6, ""protein_disease"": 20, ""drug_disease"": 2}"
+sage,37,test,saliency,True,2.0,8,,0,"{""drug_disease"": 9, ""protein_disease"": 16}"
+sage,37,test,ig,True,2.0,8,,0,"{""drug_disease"": 8, ""protein_disease"": 19}"
+sage,37,test,distance,True,2.0,8,,0,"{""drug_disease"": 8, ""protein_disease"": 17}"
+sage,37,test,random,True,4.0,0,,0,{}
+sage,38,test,regex,False,8.0,5,,0,"{""drug_disease"": 7, ""protein_disease"": 13}"
+sage,38,test,gnnexplainer,True,2.0,0,,0,{}
+sage,38,test,pgexplainer,False,,0,,0,{}
+sage,38,test,pagelink,False,,0,,0,{}
+sage,38,test,saliency,True,2.0,8,,0,"{""drug_disease"": 8, ""protein_disease"": 20}"
+sage,38,test,ig,False,8.0,0,,0,{}
+sage,38,test,distance,True,2.0,0,,0,{}
+sage,38,test,random,True,4.0,0,,0,{}
+sage,39,test,regex,True,2.0,8,,0,"{""drug_disease"": 8, ""protein_disease"": 21}"
+sage,39,test,gnnexplainer,True,2.0,8,,0,"{""drug_disease"": 8, ""protein_disease"": 15}"
+sage,39,test,pgexplainer,True,2.0,0,,0,{}
+sage,39,test,pagelink,True,2.0,8,,0,"{""dti"": 2, ""protein_disease"": 17, ""drug_disease"": 6}"
+sage,39,test,saliency,True,2.0,8,,0,"{""drug_disease"": 8, ""protein_disease"": 19}"
+sage,39,test,ig,True,2.0,8,,0,"{""drug_disease"": 8, ""protein_disease"": 20}"
+sage,39,test,distance,True,2.0,8,,0,"{""drug_disease"": 8, ""protein_disease"": 17}"
+sage,39,test,random,False,10.0,0,,0,{}
+sage,40,test,regex,True,2.0,3,,0,"{""drug_disease"": 1, ""protein_disease"": 3, ""drug_se"": 8}"
+sage,40,test,gnnexplainer,True,2.0,2,,0,"{""ddi"": 2, ""drug_se"": 6}"
+sage,40,test,pgexplainer,False,,0,,0,{}
+sage,40,test,pagelink,False,10.0,5,,0,"{""drug_se"": 12, ""drug_disease"": 4, ""protein_disease"": 4}"
+sage,40,test,saliency,True,4.0,5,,0,"{""drug_se"": 20}"
+sage,40,test,ig,True,2.0,5,,0,"{""drug_se"": 20}"
+sage,40,test,distance,True,2.0,4,,0,"{""drug_se"": 16}"
+sage,40,test,random,False,6.0,0,,0,{}
+sage,41,test,regex,True,4.0,5,,0,"{""drug_disease"": 5, ""protein_disease"": 15}"
+sage,41,test,gnnexplainer,False,,5,,0,"{""ddi"": 6, ""drug_se"": 12, ""drug_disease"": 1, ""dti"": 1}"
+sage,41,test,pgexplainer,False,,5,,0,"{""drug_disease"": 5, ""protein_disease"": 15}"
+sage,41,test,pagelink,True,3.0,6,,0,"{""drug_disease"": 3, ""protein_disease"": 17, ""dti"": 3}"
+sage,41,test,saliency,False,5.0,0,,0,{}
+sage,41,test,ig,False,8.0,0,,0,{}
+sage,41,test,distance,True,3.0,0,,0,{}
+sage,41,test,random,False,8.0,4,,0,"{""drug_disease"": 8, ""drug_se"": 8}"
+sage,42,test,regex,True,3.0,0,,0,{}
+sage,42,test,gnnexplainer,False,26.0,2,,0,"{""drug_disease"": 2, ""protein_disease"": 6}"
+sage,42,test,pgexplainer,False,,0,,0,{}
+sage,42,test,pagelink,False,,0,,0,{}
+sage,42,test,saliency,True,4.0,5,,0,"{""dti"": 5, ""protein_disease"": 15}"
+sage,42,test,ig,True,4.0,0,,0,{}
+sage,42,test,distance,True,2.0,1,,0,"{""drug_disease"": 1, ""protein_disease"": 3}"
+sage,42,test,random,False,6.0,5,,0,"{""drug_se"": 20}"
+sage,43,test,regex,True,2.0,8,,0,"{""drug_disease"": 8, ""protein_disease"": 20}"
+sage,43,test,gnnexplainer,True,2.0,8,,0,"{""drug_disease"": 8, ""protein_disease"": 17}"
+sage,43,test,pgexplainer,True,2.0,0,,0,{}
+sage,43,test,pagelink,True,2.0,1,,0,"{""drug_disease"": 1, ""protein_disease"": 1}"
+sage,43,test,saliency,True,4.0,4,,0,"{""drug_se"": 12, ""drug_disease"": 4}"
+sage,43,test,ig,True,2.0,8,,0,"{""drug_disease"": 8, ""protein_disease"": 20}"
+sage,43,test,distance,True,2.0,5,,0,"{""drug_se"": 10, ""drug_disease"": 6, ""protein_disease"": 4}"
+sage,43,test,random,False,,0,,0,{}
+sage,44,test,regex,True,4.0,5,,0,"{""drug_disease"": 15, ""protein_disease"": 5}"
+sage,44,test,gnnexplainer,False,8.0,0,,0,{}
+sage,44,test,pgexplainer,False,,0,,0,{}
+sage,44,test,pagelink,True,3.0,4,,0,"{""dti"": 4, ""protein_disease"": 10}"
+sage,44,test,saliency,True,4.0,0,,0,{}
+sage,44,test,ig,True,4.0,5,,0,"{""drug_disease"": 11, ""ddi"": 6, ""drug_se"": 3}"
+sage,44,test,distance,True,3.0,0,,0,{}
+sage,44,test,random,False,6.0,0,,0,{}
+sage,45,test,regex,False,5.0,1,,0,"{""dti"": 1, ""protein_disease"": 3}"
+sage,45,test,gnnexplainer,True,2.0,8,,0,"{""drug_disease"": 8, ""protein_disease"": 18}"
+sage,45,test,pgexplainer,True,2.0,0,,0,{}
+sage,45,test,pagelink,True,2.0,8,,0,"{""drug_disease"": 8, ""protein_disease"": 18}"
+sage,45,test,saliency,False,5.0,0,,0,{}
+sage,45,test,ig,False,5.0,1,,0,"{""dti"": 1, ""protein_disease"": 3}"
+sage,45,test,distance,True,2.0,6,,0,"{""dti"": 6, ""protein_disease"": 17}"
+sage,45,test,random,False,,0,,0,{}
+sage,46,test,regex,True,2.0,5,,0,"{""drug_se"": 14, ""drug_disease"": 3, ""protein_disease"": 3}"
+sage,46,test,gnnexplainer,False,,5,,0,"{""drug_se"": 20}"
+sage,46,test,pgexplainer,False,5.0,0,,0,{}
+sage,46,test,pagelink,True,2.0,8,,0,"{""drug_se"": 7, ""dti"": 7, ""ddi"": 2, ""protein_disease"": 6, ""drug_disease"": 4}"
+sage,46,test,saliency,True,2.0,8,,0,"{""ddi"": 8, ""dti"": 8, ""protein_disease"": 9}"
+sage,46,test,ig,True,2.0,8,,0,"{""ddi"": 2, ""dti"": 7, ""drug_disease"": 5, ""protein_disease"": 6, ""drug_se"": 5}"
+sage,46,test,distance,True,2.0,0,,0,{}
+sage,46,test,random,False,18.0,0,,0,{}
+sage,47,test,regex,True,2.0,8,,0,"{""drug_disease"": 9, ""protein_disease"": 19}"
+sage,47,test,gnnexplainer,True,2.0,8,,0,"{""drug_disease"": 9, ""protein_disease"": 14}"
+sage,47,test,pgexplainer,False,6.0,5,,0,"{""drug_disease"": 5, ""protein_disease"": 15}"
+sage,47,test,pagelink,True,2.0,1,,0,"{""drug_disease"": 1, ""protein_disease"": 1}"
+sage,47,test,saliency,True,2.0,5,,0,"{""drug_se"": 20}"
+sage,47,test,ig,True,2.0,8,,0,"{""drug_disease"": 8, ""protein_disease"": 18}"
+sage,47,test,distance,True,2.0,1,,0,"{""drug_disease"": 3, ""protein_disease"": 1}"
+sage,47,test,random,False,6.0,5,,0,"{""drug_disease"": 7, ""protein_disease"": 13}"
+sage,48,test,regex,True,3.0,4,,0,"{""drug_se"": 16}"
+sage,48,test,gnnexplainer,True,4.0,5,,0,"{""drug_se"": 20}"
+sage,48,test,pgexplainer,False,,5,,0,"{""drug_se"": 20}"
+sage,48,test,pagelink,False,8.0,5,,0,"{""drug_se"": 20}"
+sage,48,test,saliency,True,4.0,0,,0,{}
+sage,48,test,ig,True,4.0,0,,0,{}
+sage,48,test,distance,True,3.0,5,,0,"{""drug_se"": 20}"
+sage,48,test,random,True,4.0,5,,0,"{""drug_se"": 18, ""drug_disease"": 1, ""protein_disease"": 1}"
+sage,49,test,regex,False,8.0,5,,0,"{""drug_se"": 20}"
+sage,49,test,gnnexplainer,False,6.0,5,,0,"{""drug_se"": 20}"
+sage,49,test,pgexplainer,True,4.0,0,,0,{}
+sage,49,test,pagelink,True,3.0,7,,0,"{""ddi"": 7, ""drug_disease"": 7, ""protein_disease"": 12}"
+sage,49,test,saliency,True,4.0,5,,0,"{""drug_se"": 20}"
+sage,49,test,ig,False,,5,,0,"{""drug_se"": 20}"
+sage,49,test,distance,True,3.0,0,,0,{}
+sage,49,test,random,False,,5,,0,"{""dti"": 6, ""drug_disease"": 3, ""protein_disease"": 1, ""drug_se"": 10}"
+sage,50,test,regex,True,4.0,5,,0,"{""drug_se"": 16, ""ddi"": 1, ""drug_disease"": 1, ""protein_disease"": 2}"
+sage,50,test,gnnexplainer,True,2.0,5,,0,"{""drug_disease"": 10, ""drug_se"": 10}"
+sage,50,test,pgexplainer,False,,0,,0,{}
+sage,50,test,pagelink,True,3.0,7,,0,"{""dti"": 7, ""protein_disease"": 19}"
+sage,50,test,saliency,True,2.0,8,,0,"{""dti"": 8, ""protein_disease"": 21}"
+sage,50,test,ig,False,6.0,5,,0,"{""drug_se"": 20}"
+sage,50,test,distance,True,2.0,4,,0,"{""drug_se"": 16}"
+sage,50,test,random,False,8.0,5,,0,"{""drug_se"": 12, ""drug_disease"": 4, ""protein_disease"": 4}"
+sage,51,test,regex,True,4.0,5,,0,"{""drug_disease"": 5, ""protein_disease"": 13, ""drug_se"": 2}"
+sage,51,test,gnnexplainer,True,4.0,0,,0,{}
+sage,51,test,pgexplainer,False,,5,,0,"{""drug_disease"": 5, ""protein_disease"": 15}"
+sage,51,test,pagelink,True,3.0,1,,0,"{""drug_disease"": 3, ""protein_disease"": 1}"
+sage,51,test,saliency,True,4.0,5,,0,"{""drug_se"": 20}"
+sage,51,test,ig,True,4.0,4,,0,"{""drug_se"": 16}"
+sage,51,test,distance,True,4.0,5,,0,"{""ddi"": 10, ""drug_se"": 10}"
+sage,51,test,random,False,6.0,2,,0,"{""drug_disease"": 2, ""protein_disease"": 6}"
+sage,52,test,regex,False,,5,,0,"{""drug_se"": 10, ""drug_disease"": 6, ""protein_disease"": 4}"
+sage,52,test,gnnexplainer,True,4.0,3,,0,"{""drug_se"": 12}"
+sage,52,test,pgexplainer,False,,0,,0,{}
+sage,52,test,pagelink,True,3.0,5,,0,"{""dti"": 4, ""protein_disease"": 13, ""drug_disease"": 1}"
+sage,52,test,saliency,True,3.0,7,,0,"{""dti"": 7, ""protein_disease"": 19}"
+sage,52,test,ig,False,8.0,5,,0,"{""drug_se"": 10, ""drug_disease"": 5, ""protein_disease"": 5}"
+sage,52,test,distance,True,2.0,8,,0,"{""drug_disease"": 8, ""protein_disease"": 17}"
+sage,52,test,random,False,10.0,5,,0,"{""drug_se"": 20}"
+sage,53,test,regex,True,2.0,8,,0,"{""drug_disease"": 8, ""protein_disease"": 21}"
+sage,53,test,gnnexplainer,True,2.0,8,,0,"{""drug_disease"": 8, ""protein_disease"": 15}"
+sage,53,test,pgexplainer,False,,0,,0,{}
+sage,53,test,pagelink,True,2.0,8,,0,"{""drug_disease"": 10, ""protein_disease"": 16}"
+sage,53,test,saliency,True,2.0,2,,0,"{""dti"": 2, ""protein_disease"": 6}"
+sage,53,test,ig,True,2.0,8,,0,"{""drug_disease"": 8, ""protein_disease"": 15}"
+sage,53,test,distance,True,2.0,0,,0,{}
+sage,53,test,random,True,4.0,0,,0,{}
+sage,54,test,regex,True,4.0,5,,0,"{""drug_disease"": 6, ""protein_disease"": 14}"
+sage,54,test,gnnexplainer,True,2.0,8,,0,"{""dti"": 8, ""ppi"": 8, ""protein_disease"": 9}"
+sage,54,test,pgexplainer,False,,5,,0,"{""ddi"": 5, ""drug_disease"": 14, ""dti"": 1}"
+sage,54,test,pagelink,True,2.0,4,,0,"{""dti"": 4, ""ppi"": 4, ""protein_disease"": 5}"
+sage,54,test,saliency,True,2.0,8,,0,"{""dti"": 8, ""ppi"": 8, ""protein_disease"": 9}"
+sage,54,test,ig,False,6.0,2,,0,"{""ddi"": 2, ""drug_disease"": 2, ""protein_disease"": 4}"
+sage,54,test,distance,True,2.0,0,,0,{}
+sage,54,test,random,True,4.0,0,,0,{}
+sage,55,test,regex,False,,5,,0,"{""drug_disease"": 20}"
+sage,55,test,gnnexplainer,True,2.0,5,,0,"{""drug_disease"": 17, ""ddi"": 1, ""protein_disease"": 2}"
+sage,55,test,pgexplainer,False,,0,,0,{}
+sage,55,test,pagelink,False,14.0,5,,0,"{""drug_disease"": 15, ""protein_disease"": 5}"
+sage,55,test,saliency,False,12.0,0,,0,{}
+sage,55,test,ig,False,,0,,0,{}
+sage,55,test,distance,True,2.0,0,,0,{}
+sage,55,test,random,False,,0,,0,{}
+sage,56,test,regex,False,8.0,5,,0,"{""drug_se"": 20}"
+sage,56,test,gnnexplainer,False,8.0,5,,0,"{""drug_se"": 16, ""ddi"": 4}"
+sage,56,test,pgexplainer,False,,2,,0,"{""drug_se"": 8}"
+sage,56,test,pagelink,False,,0,,0,{}
+sage,56,test,saliency,False,6.0,5,,0,"{""drug_se"": 20}"
+sage,56,test,ig,False,6.0,5,,0,"{""drug_se"": 20}"
+sage,56,test,distance,True,3.0,5,,0,"{""drug_se"": 20}"
+sage,56,test,random,True,4.0,4,,0,"{""drug_se"": 16}"
+sage,57,test,regex,True,4.0,0,,0,{}
+sage,57,test,gnnexplainer,False,6.0,5,,0,"{""drug_disease"": 9, ""protein_disease"": 11}"
+sage,57,test,pgexplainer,False,,0,,0,{}
+sage,57,test,pagelink,False,,0,,0,{}
+sage,57,test,saliency,True,2.0,8,,0,"{""drug_disease"": 8, ""protein_disease"": 17}"
+sage,57,test,ig,True,4.0,1,,0,"{""drug_se"": 2, ""drug_disease"": 1, ""protein_disease"": 1}"
+sage,57,test,distance,True,2.0,8,,0,"{""drug_disease"": 8, ""protein_disease"": 17}"
+sage,57,test,random,True,4.0,0,,0,{}
+sage,58,test,regex,False,8.0,5,,0,"{""drug_disease"": 5, ""protein_disease"": 13, ""drug_se"": 2}"
+sage,58,test,gnnexplainer,True,2.0,0,,0,{}
+sage,58,test,pgexplainer,False,,0,,0,{}
+sage,58,test,pagelink,False,8.0,5,,0,"{""drug_se"": 20}"
+sage,58,test,saliency,True,2.0,0,,0,{}
+sage,58,test,ig,False,6.0,0,,0,{}
+sage,58,test,distance,True,2.0,8,,0,"{""drug_disease"": 8, ""protein_disease"": 17}"
+sage,58,test,random,False,12.0,2,,0,"{""drug_disease"": 8}"
+sage,59,test,regex,True,4.0,1,,0,"{""drug_disease"": 1, ""protein_disease"": 3}"
+sage,59,test,gnnexplainer,True,4.0,4,,0,"{""drug_se"": 10, ""ddi"": 6}"
+sage,59,test,pgexplainer,False,,0,,0,{}
+sage,59,test,pagelink,False,18.0,3,,0,"{""ddi"": 4, ""drug_se"": 7, ""drug_disease"": 1}"
+sage,59,test,saliency,False,8.0,4,,0,"{""drug_se"": 16}"
+sage,59,test,ig,False,8.0,5,,0,"{""drug_se"": 20}"
+sage,59,test,distance,True,2.0,8,,0,"{""drug_disease"": 8, ""protein_disease"": 17}"
+sage,59,test,random,False,6.0,5,,0,"{""drug_disease"": 5, ""protein_disease"": 15}"
+sage,60,test,regex,True,2.0,8,,0,"{""drug_disease"": 9, ""protein_disease"": 19}"
+sage,60,test,gnnexplainer,True,2.0,8,,0,"{""drug_disease"": 8, ""protein_disease"": 15}"
+sage,60,test,pgexplainer,True,2.0,5,,0,"{""drug_disease"": 5, ""protein_disease"": 15}"
+sage,60,test,pagelink,True,2.0,8,,0,"{""drug_disease"": 8, ""protein_disease"": 15}"
+sage,60,test,saliency,True,4.0,0,,0,{}
+sage,60,test,ig,True,2.0,8,,0,"{""drug_disease"": 8, ""protein_disease"": 15}"
+sage,60,test,distance,True,2.0,8,,0,"{""drug_disease"": 8, ""protein_disease"": 17}"
+sage,60,test,random,True,2.0,8,,0,"{""drug_disease"": 9, ""protein_disease"": 19}"
+sage,61,test,regex,True,2.0,8,,0,"{""drug_disease"": 8, ""protein_disease"": 21}"
+sage,61,test,gnnexplainer,True,2.0,8,,0,"{""drug_disease"": 8, ""protein_disease"": 15}"
+sage,61,test,pgexplainer,True,2.0,2,,0,"{""dti"": 2, ""protein_disease"": 6}"
+sage,61,test,pagelink,True,2.0,8,,0,"{""dti"": 6, ""protein_disease"": 20, ""drug_disease"": 2}"
+sage,61,test,saliency,True,2.0,5,,0,"{""drug_se"": 10, ""dti"": 5, ""protein_disease"": 5}"
+sage,61,test,ig,True,2.0,8,,0,"{""drug_disease"": 8, ""protein_disease"": 15}"
+sage,61,test,distance,True,2.0,4,,0,"{""drug_disease"": 12, ""protein_disease"": 4}"
+sage,61,test,random,False,14.0,5,,0,"{""drug_disease"": 6, ""protein_disease"": 14}"
+sage,62,test,regex,True,2.0,8,,0,"{""ddi"": 8, ""dti"": 8, ""protein_disease"": 11}"
+sage,62,test,gnnexplainer,True,2.0,8,,0,"{""ddi"": 8, ""dti"": 8, ""protein_disease"": 12}"
+sage,62,test,pgexplainer,True,3.0,2,,0,"{""drug_se"": 4, ""dti"": 2}"
+sage,62,test,pagelink,True,2.0,1,,0,"{""ddi"": 1, ""dti"": 1}"
+sage,62,test,saliency,True,2.0,8,,0,"{""ddi"": 8, ""dti"": 8, ""protein_disease"": 12}"
+sage,62,test,ig,True,2.0,8,,0,"{""ddi"": 8, ""dti"": 8, ""protein_disease"": 12}"
+sage,62,test,distance,True,2.0,0,,0,{}
+sage,62,test,random,True,3.0,4,,0,"{""ddi"": 4, ""drug_disease"": 4, ""protein_disease"": 7}"
+sage,63,test,regex,True,2.0,8,,0,"{""ddi"": 8, ""dti"": 8, ""protein_disease"": 8, ""drug_disease"": 2}"
+sage,63,test,gnnexplainer,True,2.0,8,,0,"{""ddi"": 8, ""dti"": 8, ""protein_disease"": 9}"
+sage,63,test,pgexplainer,True,2.0,6,,0,"{""drug_se"": 12, ""dti"": 6, ""protein_disease"": 5}"
+sage,63,test,pagelink,True,2.0,8,,0,"{""drug_se"": 7, ""dti"": 7, ""protein_disease"": 6, ""drug_disease"": 4, ""ddi"": 2}"
+sage,63,test,saliency,True,2.0,8,,0,"{""ddi"": 8, ""dti"": 8, ""protein_disease"": 7}"
+sage,63,test,ig,True,2.0,8,,0,"{""drug_disease"": 4, ""protein_disease"": 6, ""dti"": 7, ""ddi"": 4, ""drug_se"": 2}"
+sage,63,test,distance,True,2.0,0,,0,{}
+sage,63,test,random,False,6.0,0,,0,{}
+sage,64,test,regex,True,2.0,5,,0,"{""drug_disease"": 16, ""protein_disease"": 4}"
+sage,64,test,gnnexplainer,True,2.0,8,,0,"{""drug_disease"": 8, ""protein_disease"": 20}"
+sage,64,test,pgexplainer,False,,5,,0,"{""ddi"": 5, ""drug_se"": 14, ""drug_disease"": 1}"
+sage,64,test,pagelink,True,2.0,1,,0,"{""drug_disease"": 1, ""protein_disease"": 1}"
+sage,64,test,saliency,False,7.0,5,,0,"{""drug_disease"": 15, ""protein_disease"": 5}"
+sage,64,test,ig,True,2.0,1,,0,"{""ddi"": 1, ""drug_disease"": 1, ""protein_disease"": 2}"
+sage,64,test,distance,True,2.0,8,,0,"{""drug_disease"": 9, ""protein_disease"": 16}"
+sage,64,test,random,False,6.0,5,,0,"{""drug_disease"": 6, ""protein_disease"": 14}"
+sage,65,test,regex,True,2.0,2,,0,"{""drug_disease"": 8}"
+sage,65,test,gnnexplainer,True,2.0,8,,0,"{""drug_disease"": 8, ""protein_disease"": 17}"
+sage,65,test,pgexplainer,True,4.0,0,,0,{}
+sage,65,test,pagelink,True,2.0,8,,0,"{""ddi"": 2, ""drug_disease"": 8, ""protein_disease"": 18}"
+sage,65,test,saliency,True,2.0,8,,0,"{""drug_disease"": 9, ""protein_disease"": 14}"
+sage,65,test,ig,True,2.0,8,,0,"{""drug_disease"": 8, ""protein_disease"": 20}"
+sage,65,test,distance,True,2.0,0,,0,{}
+sage,65,test,random,False,12.0,4,,0,"{""drug_disease"": 4, ""protein_disease"": 12}"
+sage,66,test,regex,True,4.0,5,,0,"{""drug_disease"": 6, ""protein_disease"": 14}"
+sage,66,test,gnnexplainer,False,8.0,5,,0,"{""drug_disease"": 6, ""protein_disease"": 2, ""drug_se"": 11, ""ddi"": 1}"
+sage,66,test,pgexplainer,False,,0,,0,{}
+sage,66,test,pagelink,False,6.0,5,,0,"{""drug_se"": 14, ""drug_disease"": 6}"
+sage,66,test,saliency,True,4.0,4,,0,"{""drug_se"": 16}"
+sage,66,test,ig,True,4.0,4,,0,"{""drug_se"": 16}"
+sage,66,test,distance,True,2.0,0,,0,{}
+sage,66,test,random,True,4.0,0,,0,{}
+sage,67,test,regex,True,2.0,8,,0,"{""drug_disease"": 8, ""protein_disease"": 17}"
+sage,67,test,gnnexplainer,True,2.0,8,,0,"{""drug_disease"": 8, ""protein_disease"": 15}"
+sage,67,test,pgexplainer,True,2.0,0,,0,{}
+sage,67,test,pagelink,True,2.0,8,,0,"{""dti"": 3, ""protein_disease"": 19, ""drug_disease"": 5}"
+sage,67,test,saliency,True,4.0,5,,0,"{""drug_se"": 20}"
+sage,67,test,ig,True,2.0,8,,0,"{""drug_disease"": 8, ""protein_disease"": 15}"
+sage,67,test,distance,True,2.0,1,,0,"{""drug_disease"": 1, ""protein_disease"": 3}"
+sage,67,test,random,False,8.0,3,,0,"{""drug_se"": 12}"
+sage,68,test,regex,True,2.0,8,,0,"{""drug_disease"": 4, ""protein_disease"": 13, ""dti"": 5, ""ddi"": 4}"
+sage,68,test,gnnexplainer,False,10.0,5,,0,"{""drug_disease"": 3, ""protein_disease"": 9, ""drug_se"": 6, ""ddi"": 2}"
+sage,68,test,pgexplainer,True,2.0,0,,0,{}
+sage,68,test,pagelink,True,2.0,8,,0,"{""ddi"": 5, ""drug_disease"": 5, ""protein_disease"": 8, ""dti"": 6}"
+sage,68,test,saliency,True,2.0,8,,0,"{""ddi"": 7, ""dti"": 7, ""protein_disease"": 8, ""drug_disease"": 1}"
+sage,68,test,ig,True,2.0,8,,0,"{""drug_disease"": 4, ""protein_disease"": 11, ""dti"": 5, ""ddi"": 4}"
+sage,68,test,distance,True,2.0,3,,0,"{""drug_disease"": 3, ""protein_disease"": 9}"
+sage,68,test,random,False,6.0,3,,0,"{""drug_disease"": 5, ""protein_disease"": 7}"
+sage,69,test,regex,True,2.0,8,,0,"{""ddi"": 8, ""dti"": 8, ""protein_disease"": 11}"
+sage,69,test,gnnexplainer,True,2.0,8,,0,"{""ddi"": 8, ""dti"": 8, ""protein_disease"": 7}"
+sage,69,test,pgexplainer,False,,0,,0,{}
+sage,69,test,pagelink,True,2.0,8,,0,"{""drug_disease"": 3, ""protein_disease"": 10, ""ddi"": 6, ""dti"": 7}"
+sage,69,test,saliency,True,2.0,8,,0,"{""ddi"": 11, ""dti"": 8, ""protein_disease"": 7}"
+sage,69,test,ig,True,2.0,8,,0,"{""ddi"": 10, ""dti"": 8, ""protein_disease"": 7}"
+sage,69,test,distance,True,2.0,0,,0,{}
+sage,69,test,random,False,,5,,0,"{""drug_disease"": 6, ""protein_disease"": 14}"
+sage,70,test,regex,True,2.0,8,,0,"{""drug_disease"": 8, ""protein_disease"": 20}"
+sage,70,test,gnnexplainer,True,2.0,8,,0,"{""drug_disease"": 8, ""protein_disease"": 18}"
+sage,70,test,pgexplainer,True,4.0,0,,0,{}
+sage,70,test,pagelink,True,2.0,1,,0,"{""drug_disease"": 1, ""protein_disease"": 1}"
+sage,70,test,saliency,False,8.0,5,,0,"{""ddi"": 5, ""drug_se"": 15}"
+sage,70,test,ig,True,2.0,8,,0,"{""drug_disease"": 8, ""protein_disease"": 20}"
+sage,70,test,distance,True,2.0,0,,0,{}
+sage,70,test,random,False,6.0,5,,0,"{""drug_se"": 18, ""drug_disease"": 2}"
+sage,71,test,regex,True,2.0,8,,0,"{""drug_disease"": 8, ""protein_disease"": 18, ""ppi"": 1}"
+sage,71,test,gnnexplainer,True,2.0,8,,0,"{""drug_disease"": 9, ""protein_disease"": 17, ""ppi"": 2}"
+sage,71,test,pgexplainer,True,2.0,0,,0,{}
+sage,71,test,pagelink,True,2.0,1,,0,"{""drug_disease"": 1, ""protein_disease"": 1}"
+sage,71,test,saliency,False,8.0,3,,0,"{""drug_se"": 6, ""drug_disease"": 3, ""protein_disease"": 3}"
+sage,71,test,ig,True,2.0,8,,0,"{""drug_disease"": 8, ""protein_disease"": 19, ""ppi"": 1}"
+sage,71,test,distance,True,2.0,8,,0,"{""drug_disease"": 9, ""protein_disease"": 16}"
+sage,71,test,random,True,4.0,0,,0,{}
+sage,72,test,regex,True,2.0,0,,0,{}
+sage,72,test,gnnexplainer,True,2.0,8,,0,"{""drug_disease"": 9, ""protein_disease"": 14}"
+sage,72,test,pgexplainer,False,,5,,0,"{""drug_disease"": 14, ""protein_disease"": 4, ""drug_se"": 2}"
+sage,72,test,pagelink,True,2.0,8,,0,"{""drug_disease"": 10, ""protein_disease"": 14}"
+sage,72,test,saliency,True,2.0,8,,0,"{""drug_disease"": 9, ""protein_disease"": 14}"
+sage,72,test,ig,True,2.0,8,,0,"{""drug_disease"": 9, ""protein_disease"": 17}"
+sage,72,test,distance,True,2.0,7,,0,"{""ddi"": 7, ""drug_disease"": 7, ""protein_disease"": 12}"
+sage,72,test,random,False,,5,,0,"{""drug_disease"": 5, ""protein_disease"": 15}"
+sage,73,test,regex,True,2.0,5,,0,"{""drug_se"": 20}"
+sage,73,test,gnnexplainer,True,2.0,8,,0,"{""drug_disease"": 8, ""protein_disease"": 17}"
+sage,73,test,pgexplainer,True,2.0,0,,0,{}
+sage,73,test,pagelink,True,2.0,8,,0,"{""dti"": 2, ""protein_disease"": 20, ""drug_disease"": 6}"
+sage,73,test,saliency,True,4.0,5,,0,"{""drug_se"": 20}"
+sage,73,test,ig,True,2.0,8,,0,"{""drug_disease"": 8, ""protein_disease"": 19}"
+sage,73,test,distance,True,2.0,1,,0,"{""drug_se"": 4}"
+sage,73,test,random,False,19.0,0,,0,{}
+sage,74,test,regex,False,10.0,0,,0,{}
+sage,74,test,gnnexplainer,True,4.0,0,,0,{}
+sage,74,test,pgexplainer,False,,5,,0,"{""drug_se"": 20}"
+sage,74,test,pagelink,False,6.0,5,,0,"{""drug_se"": 14, ""drug_disease"": 4, ""protein_disease"": 2}"
+sage,74,test,saliency,False,16.0,5,,0,"{""drug_se"": 20}"
+sage,74,test,ig,False,16.0,0,,0,{}
+sage,74,test,distance,True,3.0,1,,0,"{""drug_se"": 2, ""drug_disease"": 1, ""protein_disease"": 1}"
+sage,74,test,random,True,4.0,5,,0,"{""drug_se"": 20}"
+sage,75,test,regex,True,3.0,2,,0,"{""ddi"": 2, ""drug_disease"": 2, ""protein_disease"": 3}"
+sage,75,test,gnnexplainer,True,2.0,8,,0,"{""ddi"": 5, ""drug_disease"": 8, ""protein_disease"": 14}"
+sage,75,test,pgexplainer,False,,5,,0,"{""ddi"": 2, ""drug_se"": 14, ""drug_disease"": 2, ""protein_disease"": 2}"
+sage,75,test,pagelink,True,2.0,2,,0,"{""drug_disease"": 4, ""protein_disease"": 2}"
+sage,75,test,saliency,True,2.0,8,,0,"{""drug_disease"": 8, ""protein_disease"": 14, ""ddi"": 4}"
+sage,75,test,ig,True,3.0,7,,0,"{""ddi"": 7, ""drug_disease"": 7, ""protein_disease"": 12}"
+sage,75,test,distance,True,2.0,2,,0,"{""drug_disease"": 4, ""protein_disease"": 4}"
+sage,75,test,random,True,4.0,5,,0,"{""drug_disease"": 7, ""protein_disease"": 13}"
+sage,76,test,regex,True,2.0,0,,0,{}
+sage,76,test,gnnexplainer,True,2.0,0,,0,{}
+sage,76,test,pgexplainer,False,,0,,0,{}
+sage,76,test,pagelink,True,4.0,5,,0,"{""drug_disease"": 4, ""protein_disease"": 8, ""drug_se"": 8}"
+sage,76,test,saliency,True,2.0,3,,0,"{""drug_se"": 6, ""drug_disease"": 5, ""protein_disease"": 1}"
+sage,76,test,ig,True,2.0,5,,0,"{""drug_disease"": 5, ""protein_disease"": 15}"
+sage,76,test,distance,True,2.0,3,,0,"{""drug_disease"": 10, ""protein_disease"": 2}"
+sage,76,test,random,False,20.0,5,,0,"{""drug_se"": 18, ""drug_disease"": 1, ""protein_disease"": 1}"
+sage,77,test,regex,True,2.0,8,,0,"{""drug_disease"": 10, ""protein_disease"": 18}"
+sage,77,test,gnnexplainer,True,2.0,8,,0,"{""drug_disease"": 8, ""protein_disease"": 17}"
+sage,77,test,pgexplainer,False,,0,,0,{}
+sage,77,test,pagelink,True,2.0,8,,0,"{""dti"": 4, ""protein_disease"": 16, ""ddi"": 4, ""drug_disease"": 4}"
+sage,77,test,saliency,True,2.0,8,,0,"{""drug_disease"": 10, ""protein_disease"": 15}"
+sage,77,test,ig,True,2.0,8,,0,"{""drug_disease"": 10, ""protein_disease"": 16}"
+sage,77,test,distance,True,2.0,1,,0,"{""drug_disease"": 1, ""protein_disease"": 3}"
+sage,77,test,random,False,,0,,0,{}
+sage,78,test,regex,False,,5,,0,"{""drug_se"": 20}"
+sage,78,test,gnnexplainer,True,4.0,4,,0,"{""drug_se"": 16}"
+sage,78,test,pgexplainer,False,,5,,0,"{""drug_se"": 12, ""drug_disease"": 4, ""protein_disease"": 4}"
+sage,78,test,pagelink,False,10.0,5,,0,"{""drug_se"": 14, ""drug_disease"": 3, ""protein_disease"": 3}"
+sage,78,test,saliency,False,,5,,0,"{""drug_se"": 20}"
+sage,78,test,ig,False,,5,,0,"{""drug_se"": 20}"
+sage,78,test,distance,True,4.0,5,,0,"{""drug_se"": 11, ""ddi"": 6, ""drug_disease"": 3}"
+sage,78,test,random,False,,5,,0,"{""drug_disease"": 12, ""ddi"": 6, ""drug_se"": 2}"
+sage,79,test,regex,True,2.0,8,,0,"{""drug_disease"": 11, ""protein_disease"": 18}"
+sage,79,test,gnnexplainer,True,2.0,8,,0,"{""drug_disease"": 8, ""protein_disease"": 15}"
+sage,79,test,pgexplainer,True,4.0,0,,0,{}
+sage,79,test,pagelink,True,2.0,8,,0,"{""drug_disease"": 8, ""protein_disease"": 15}"
+sage,79,test,saliency,True,2.0,8,,0,"{""drug_disease"": 8, ""protein_disease"": 17}"
+sage,79,test,ig,True,2.0,8,,0,"{""drug_disease"": 8, ""protein_disease"": 15}"
+sage,79,test,distance,True,2.0,0,,0,{}
+sage,79,test,random,True,4.0,5,,0,"{""drug_disease"": 5, ""protein_disease"": 15}"
+sage,80,test,regex,True,2.0,8,,0,"{""drug_disease"": 8, ""protein_disease"": 19}"
+sage,80,test,gnnexplainer,True,2.0,8,,0,"{""drug_disease"": 9, ""protein_disease"": 18}"
+sage,80,test,pgexplainer,True,2.0,0,,0,{}
+sage,80,test,pagelink,True,2.0,8,,0,"{""dti"": 2, ""protein_disease"": 16, ""drug_disease"": 7}"
+sage,80,test,saliency,True,2.0,8,,0,"{""drug_disease"": 8, ""protein_disease"": 17}"
+sage,80,test,ig,True,2.0,8,,0,"{""drug_disease"": 8, ""protein_disease"": 15}"
+sage,80,test,distance,True,2.0,8,,0,"{""drug_disease"": 8, ""protein_disease"": 17}"
+sage,80,test,random,True,4.0,5,,0,"{""drug_disease"": 7, ""protein_disease"": 13}"
+sage,81,test,regex,False,10.0,5,,0,"{""drug_se"": 20}"
+sage,81,test,gnnexplainer,True,3.0,5,,0,"{""drug_se"": 20}"
+sage,81,test,pgexplainer,False,,0,,0,{}
+sage,81,test,pagelink,True,3.0,2,,0,"{""dti"": 2, ""protein_disease"": 5}"
+sage,81,test,saliency,True,4.0,5,,0,"{""drug_se"": 20}"
+sage,81,test,ig,True,4.0,5,,0,"{""drug_se"": 20}"
+sage,81,test,distance,True,3.0,0,,0,{}
+sage,81,test,random,False,6.0,5,,0,"{""drug_se"": 20}"
+sage,82,test,regex,True,2.0,8,,0,"{""drug_disease"": 8, ""protein_disease"": 20}"
+sage,82,test,gnnexplainer,True,2.0,8,,0,"{""drug_disease"": 8, ""protein_disease"": 15}"
+sage,82,test,pgexplainer,False,,5,,0,"{""drug_disease"": 5, ""protein_disease"": 15}"
+sage,82,test,pagelink,True,2.0,8,,0,"{""drug_disease"": 8, ""protein_disease"": 12}"
+sage,82,test,saliency,True,2.0,8,,0,"{""drug_disease"": 8, ""protein_disease"": 17}"
+sage,82,test,ig,True,2.0,8,,0,"{""drug_disease"": 8, ""protein_disease"": 19}"
+sage,82,test,distance,True,2.0,8,,0,"{""drug_disease"": 9, ""protein_disease"": 16}"
+sage,82,test,random,False,,5,,0,"{""drug_disease"": 6, ""protein_disease"": 14}"
+sage,83,test,regex,False,,5,,0,"{""drug_se"": 20}"
+sage,83,test,gnnexplainer,False,6.0,0,,0,{}
+sage,83,test,pgexplainer,False,,5,,0,"{""drug_se"": 10, ""drug_disease"": 5, ""protein_disease"": 5}"
+sage,83,test,pagelink,False,,0,,0,{}
+sage,83,test,saliency,True,2.0,1,,0,"{""drug_se"": 4}"
+sage,83,test,ig,True,4.0,5,,0,"{""drug_se"": 20}"
+sage,83,test,distance,True,2.0,0,,0,{}
+sage,83,test,random,False,10.0,5,,0,"{""drug_se"": 20}"
+sage,84,test,regex,True,4.0,1,,0,"{""drug_disease"": 1, ""protein_disease"": 3}"
+sage,84,test,gnnexplainer,True,3.0,0,,0,{}
+sage,84,test,pgexplainer,False,,0,,0,{}
+sage,84,test,pagelink,True,3.0,5,,0,"{""dti"": 4, ""protein_disease"": 14, ""drug_disease"": 1}"
+sage,84,test,saliency,True,3.0,5,,0,"{""drug_se"": 20}"
+sage,84,test,ig,True,3.0,0,,0,{}
+sage,84,test,distance,True,3.0,5,,0,"{""drug_se"": 20}"
+sage,84,test,random,False,6.0,0,,0,{}
+sage,85,test,regex,True,2.0,3,,0,"{""drug_se"": 12}"
+sage,85,test,gnnexplainer,True,2.0,8,,0,"{""drug_disease"": 8, ""protein_disease"": 17}"
+sage,85,test,pgexplainer,True,2.0,0,,0,{}
+sage,85,test,pagelink,True,2.0,1,,0,"{""drug_disease"": 1, ""protein_disease"": 1}"
+sage,85,test,saliency,False,,0,,0,{}
+sage,85,test,ig,False,8.0,0,,0,{}
+sage,85,test,distance,True,2.0,2,,0,"{""drug_disease"": 2, ""protein_disease"": 6}"
+sage,85,test,random,True,4.0,2,,0,"{""ddi"": 2, ""drug_disease"": 4, ""protein_disease"": 2}"
+sage,86,test,regex,True,2.0,1,,0,"{""ddi"": 1, ""drug_disease"": 1, ""protein_disease"": 2}"
+sage,86,test,gnnexplainer,True,2.0,8,,0,"{""drug_disease"": 8, ""protein_disease"": 17}"
+sage,86,test,pgexplainer,True,2.0,0,,0,{}
+sage,86,test,pagelink,True,2.0,8,,0,"{""ddi"": 3, ""drug_disease"": 10, ""protein_disease"": 14}"
+sage,86,test,saliency,True,3.0,7,,0,"{""ddi"": 7, ""drug_disease"": 7, ""protein_disease"": 12}"
+sage,86,test,ig,True,2.0,8,,0,"{""drug_disease"": 8, ""protein_disease"": 20}"
+sage,86,test,distance,True,2.0,0,,0,{}
+sage,86,test,random,False,24.0,3,,0,"{""drug_disease"": 5, ""protein_disease"": 7}"
+sage,87,test,regex,False,11.0,5,,0,"{""drug_se"": 17, ""dti"": 1, ""protein_disease"": 1, ""drug_disease"": 1}"
+sage,87,test,gnnexplainer,False,8.0,1,,0,"{""dti"": 1, ""protein_disease"": 3}"
+sage,87,test,pgexplainer,False,,5,,0,"{""drug_disease"": 5, ""protein_disease"": 15}"
+sage,87,test,pagelink,False,,5,,0,"{""dti"": 5, ""protein_disease"": 15}"
+sage,87,test,saliency,False,6.0,5,,0,"{""drug_se"": 20}"
+sage,87,test,ig,False,6.0,5,,0,"{""drug_se"": 20}"
+sage,87,test,distance,True,2.0,1,,0,"{""drug_disease"": 1, ""protein_disease"": 3}"
+sage,87,test,random,False,,0,,0,{}
+sage,88,test,regex,True,2.0,5,,0,"{""drug_disease"": 5, ""protein_disease"": 15}"
+sage,88,test,gnnexplainer,True,2.0,8,,0,"{""ddi"": 8, ""dti"": 8, ""protein_disease"": 12}"
+sage,88,test,pgexplainer,False,,5,,0,"{""drug_disease"": 5, ""protein_disease"": 15}"
+sage,88,test,pagelink,True,2.0,8,,0,"{""drug_disease"": 5, ""protein_disease"": 9, ""ddi"": 3, ""dti"": 4}"
+sage,88,test,saliency,True,4.0,1,,0,"{""drug_se"": 2, ""ddi"": 1, ""dti"": 1}"
+sage,88,test,ig,True,2.0,8,,0,"{""ddi"": 8, ""dti"": 8, ""protein_disease"": 11}"
+sage,88,test,distance,True,2.0,8,,0,"{""drug_disease"": 8, ""protein_disease"": 17}"
+sage,88,test,random,False,,0,,0,{}
+sage,89,test,regex,True,2.0,8,,0,"{""drug_disease"": 9, ""protein_disease"": 18}"
+sage,89,test,gnnexplainer,True,2.0,5,,0,"{""drug_disease"": 5, ""protein_disease"": 15}"
+sage,89,test,pgexplainer,False,,0,,0,{}
+sage,89,test,pagelink,True,2.0,8,,0,"{""drug_disease"": 9, ""protein_disease"": 14}"
+sage,89,test,saliency,True,4.0,1,,0,"{""drug_disease"": 3, ""protein_disease"": 1}"
+sage,89,test,ig,True,2.0,8,,0,"{""drug_disease"": 8, ""protein_disease"": 15}"
+sage,89,test,distance,True,2.0,1,,0,"{""drug_disease"": 3, ""protein_disease"": 1}"
+sage,89,test,random,False,6.0,5,,0,"{""drug_disease"": 5, ""protein_disease"": 15}"
+sage,90,test,regex,True,2.0,8,,0,"{""drug_disease"": 8, ""protein_disease"": 20}"
+sage,90,test,gnnexplainer,True,2.0,8,,0,"{""drug_disease"": 8, ""protein_disease"": 17}"
+sage,90,test,pgexplainer,True,2.0,0,,0,{}
+sage,90,test,pagelink,True,2.0,8,,0,"{""drug_disease"": 9, ""protein_disease"": 17}"
+sage,90,test,saliency,True,2.0,8,,0,"{""drug_disease"": 8, ""protein_disease"": 17}"
+sage,90,test,ig,True,2.0,8,,0,"{""drug_disease"": 8, ""protein_disease"": 19}"
+sage,90,test,distance,True,2.0,8,,0,"{""drug_disease"": 8, ""protein_disease"": 17}"
+sage,90,test,random,True,4.0,1,,0,"{""drug_disease"": 1, ""protein_disease"": 3}"
+sage,91,test,regex,True,2.0,8,,0,"{""drug_disease"": 8, ""protein_disease"": 19}"
+sage,91,test,gnnexplainer,True,2.0,8,,0,"{""drug_disease"": 8, ""protein_disease"": 19}"
+sage,91,test,pgexplainer,True,4.0,5,,0,"{""drug_disease"": 5, ""protein_disease"": 15}"
+sage,91,test,pagelink,True,2.0,1,,0,"{""drug_disease"": 1, ""protein_disease"": 1}"
+sage,91,test,saliency,False,6.0,0,,0,{}
+sage,91,test,ig,True,2.0,8,,0,"{""drug_disease"": 8, ""protein_disease"": 19}"
+sage,91,test,distance,True,2.0,2,,0,"{""drug_disease"": 2, ""protein_disease"": 6}"
+sage,91,test,random,False,6.0,5,,0,"{""drug_disease"": 17, ""protein_disease"": 3}"
+sage,92,test,regex,True,2.0,8,,0,"{""drug_disease"": 8, ""protein_disease"": 20}"
+sage,92,test,gnnexplainer,True,2.0,8,,0,"{""drug_disease"": 8, ""protein_disease"": 17}"
+sage,92,test,pgexplainer,True,2.0,0,,0,{}
+sage,92,test,pagelink,True,2.0,1,,0,"{""drug_disease"": 1, ""protein_disease"": 1}"
+sage,92,test,saliency,False,6.0,0,,0,{}
+sage,92,test,ig,True,2.0,8,,0,"{""drug_disease"": 8, ""protein_disease"": 19}"
+sage,92,test,distance,True,2.0,0,,0,{}
+sage,92,test,random,False,8.0,4,,0,"{""drug_disease"": 14, ""protein_disease"": 2}"
+sage,93,test,regex,True,2.0,8,,0,"{""drug_disease"": 9, ""protein_disease"": 17}"
+sage,93,test,gnnexplainer,True,2.0,8,,0,"{""drug_disease"": 9, ""protein_disease"": 14}"
+sage,93,test,pgexplainer,True,2.0,1,,0,"{""dti"": 1, ""protein_disease"": 3}"
+sage,93,test,pagelink,True,2.0,8,,0,"{""drug_disease"": 9, ""protein_disease"": 13}"
+sage,93,test,saliency,True,2.0,8,,0,"{""drug_disease"": 9, ""protein_disease"": 14}"
+sage,93,test,ig,True,2.0,8,,0,"{""drug_disease"": 9, ""protein_disease"": 14}"
+sage,93,test,distance,True,2.0,1,,0,"{""drug_disease"": 1, ""protein_disease"": 3}"
+sage,93,test,random,False,10.0,5,,0,"{""ddi"": 10, ""drug_se"": 10}"
+sage,94,test,regex,True,4.0,1,,0,"{""drug_disease"": 3, ""protein_disease"": 1}"
+sage,94,test,gnnexplainer,False,6.0,0,,0,{}
+sage,94,test,pgexplainer,False,,5,,0,"{""drug_disease"": 5, ""protein_disease"": 15}"
+sage,94,test,pagelink,False,,0,,0,{}
+sage,94,test,saliency,True,4.0,0,,0,{}
+sage,94,test,ig,True,4.0,0,,0,{}
+sage,94,test,distance,True,4.0,1,,0,"{""drug_disease"": 4}"
+sage,94,test,random,False,14.0,5,,0,"{""drug_disease"": 5, ""protein_disease"": 15}"
+sage,95,test,regex,False,,5,,0,"{""drug_disease"": 5, ""protein_disease"": 15}"
+sage,95,test,gnnexplainer,False,6.0,5,,0,"{""drug_disease"": 6, ""protein_disease"": 12, ""drug_se"": 2}"
+sage,95,test,pgexplainer,False,,5,,0,"{""drug_disease"": 5, ""protein_disease"": 15}"
+sage,95,test,pagelink,False,,0,,0,{}
+sage,95,test,saliency,False,6.0,0,,0,{}
+sage,95,test,ig,False,6.0,1,,0,"{""drug_se"": 2, ""drug_disease"": 2}"
+sage,95,test,distance,True,2.0,1,,0,"{""drug_disease"": 1, ""protein_disease"": 3}"
+sage,95,test,random,False,,0,,0,{}
+sage,96,test,regex,True,2.0,8,,0,"{""drug_disease"": 8, ""protein_disease"": 18}"
+sage,96,test,gnnexplainer,True,2.0,8,,0,"{""drug_disease"": 8, ""protein_disease"": 17}"
+sage,96,test,pgexplainer,True,2.0,5,,0,"{""drug_disease"": 6, ""protein_disease"": 14}"
+sage,96,test,pagelink,True,2.0,8,,0,"{""drug_disease"": 8, ""protein_disease"": 13}"
+sage,96,test,saliency,True,2.0,8,,0,"{""drug_disease"": 8, ""protein_disease"": 17}"
+sage,96,test,ig,True,2.0,8,,0,"{""drug_disease"": 8, ""protein_disease"": 13}"
+sage,96,test,distance,True,2.0,8,,0,"{""drug_disease"": 8, ""protein_disease"": 17}"
+sage,96,test,random,False,6.0,0,,0,{}
+sage,97,test,regex,True,4.0,5,,0,"{""drug_se"": 10, ""drug_disease"": 6, ""protein_disease"": 4}"
+sage,97,test,gnnexplainer,True,4.0,0,,0,{}
+sage,97,test,pgexplainer,False,,5,,0,"{""drug_disease"": 5, ""protein_disease"": 15}"
+sage,97,test,pagelink,True,3.0,1,,0,"{""ddi"": 1, ""dti"": 1, ""protein_disease"": 2}"
+sage,97,test,saliency,True,4.0,0,,0,{}
+sage,97,test,ig,True,4.0,0,,0,{}
+sage,97,test,distance,True,3.0,0,,0,{}
+sage,97,test,random,False,10.0,5,,0,"{""drug_disease"": 5, ""protein_disease"": 15}"
+sage,98,test,regex,True,2.0,8,,0,"{""drug_disease"": 8, ""protein_disease"": 19}"
+sage,98,test,gnnexplainer,True,2.0,8,,0,"{""drug_disease"": 8, ""protein_disease"": 18}"
+sage,98,test,pgexplainer,False,6.0,0,,0,{}
+sage,98,test,pagelink,True,2.0,8,,0,"{""ddi"": 3, ""drug_disease"": 11, ""protein_disease"": 13}"
+sage,98,test,saliency,True,4.0,0,,0,{}
+sage,98,test,ig,True,2.0,8,,0,"{""drug_disease"": 10, ""protein_disease"": 15}"
+sage,98,test,distance,True,2.0,8,,0,"{""drug_disease"": 9, ""protein_disease"": 16}"
+sage,98,test,random,False,14.0,0,,0,{}
+sage,99,test,regex,True,2.0,8,,0,"{""drug_disease"": 8, ""protein_disease"": 18}"
+sage,99,test,gnnexplainer,True,2.0,8,,0,"{""drug_disease"": 8, ""protein_disease"": 19}"
+sage,99,test,pgexplainer,True,2.0,2,,0,"{""dti"": 2, ""protein_disease"": 5}"
+sage,99,test,pagelink,True,2.0,8,,0,"{""drug_disease"": 8, ""protein_disease"": 18}"
+sage,99,test,saliency,True,4.0,1,,0,"{""drug_se"": 2, ""drug_disease"": 1, ""protein_disease"": 1}"
+sage,99,test,ig,True,2.0,8,,0,"{""drug_disease"": 8, ""protein_disease"": 15}"
+sage,99,test,distance,True,2.0,0,,0,{}
+sage,99,test,random,False,6.0,5,,0,"{""drug_disease"": 5, ""protein_disease"": 15}"
+sage,100,test,regex,True,2.0,8,,0,"{""drug_disease"": 8, ""protein_disease"": 20}"
+sage,100,test,gnnexplainer,True,2.0,8,,0,"{""drug_disease"": 8, ""protein_disease"": 15}"
+sage,100,test,pgexplainer,True,2.0,5,,0,"{""drug_se"": 10, ""drug_disease"": 5, ""protein_disease"": 5}"
+sage,100,test,pagelink,True,2.0,8,,0,"{""drug_disease"": 8, ""protein_disease"": 13}"
+sage,100,test,saliency,True,2.0,8,,0,"{""drug_disease"": 8, ""protein_disease"": 17}"
+sage,100,test,ig,True,2.0,8,,0,"{""drug_disease"": 8, ""protein_disease"": 15}"
+sage,100,test,distance,True,2.0,8,,0,"{""drug_disease"": 8, ""protein_disease"": 15}"
+sage,100,test,random,False,,5,,0,"{""drug_se"": 14, ""drug_disease"": 6}"
+sage,101,test,regex,True,4.0,1,,0,"{""drug_se"": 2, ""drug_disease"": 1, ""protein_disease"": 1}"
+sage,101,test,gnnexplainer,False,7.0,5,,0,"{""drug_se"": 20}"
+sage,101,test,pgexplainer,False,,0,,0,{}
+sage,101,test,pagelink,False,,0,,0,{}
+sage,101,test,saliency,True,4.0,5,,0,"{""ddi"": 5, ""drug_se"": 13, ""drug_disease"": 2}"
+sage,101,test,ig,True,4.0,5,,0,"{""drug_se"": 20}"
+sage,101,test,distance,True,2.0,1,,0,"{""drug_se"": 2, ""drug_disease"": 1, ""protein_disease"": 1}"
+sage,101,test,random,False,10.0,5,,0,"{""drug_se"": 20}"
+sage,102,test,regex,True,2.0,8,,0,"{""drug_disease"": 8, ""protein_disease"": 20}"
+sage,102,test,gnnexplainer,True,2.0,8,,0,"{""drug_disease"": 8, ""protein_disease"": 19}"
+sage,102,test,pgexplainer,True,2.0,0,,0,{}
+sage,102,test,pagelink,True,2.0,1,,0,"{""drug_disease"": 1, ""protein_disease"": 1}"
+sage,102,test,saliency,False,10.0,0,,0,{}
+sage,102,test,ig,True,2.0,8,,0,"{""drug_disease"": 8, ""protein_disease"": 20}"
+sage,102,test,distance,True,2.0,4,,0,"{""drug_se"": 16}"
+sage,102,test,random,False,,0,,0,{}
+sage,103,test,regex,True,2.0,8,,0,"{""drug_disease"": 10, ""protein_disease"": 17}"
+sage,103,test,gnnexplainer,False,8.0,2,,0,"{""drug_se"": 8}"
+sage,103,test,pgexplainer,True,2.0,0,,0,{}
+sage,103,test,pagelink,True,2.0,8,,0,"{""drug_se"": 2, ""drug_disease"": 9, ""protein_disease"": 15, ""ddi"": 2}"
+sage,103,test,saliency,True,4.0,5,,0,"{""drug_se"": 10, ""drug_disease"": 6, ""protein_disease"": 4}"
+sage,103,test,ig,True,2.0,8,,0,"{""drug_disease"": 9, ""protein_disease"": 17}"
+sage,103,test,distance,True,2.0,1,,0,"{""drug_disease"": 3, ""protein_disease"": 1}"
+sage,103,test,random,False,6.0,5,,0,"{""drug_disease"": 5, ""protein_disease"": 15}"
+sage,104,test,regex,False,,2,,0,"{""drug_se"": 5, ""drug_disease"": 1, ""protein_disease"": 1, ""ddi"": 1}"
+sage,104,test,gnnexplainer,False,8.0,5,,0,"{""ddi"": 5, ""drug_se"": 13, ""drug_disease"": 2}"
+sage,104,test,pgexplainer,False,,5,,0,"{""drug_disease"": 5, ""protein_disease"": 15}"
+sage,104,test,pagelink,True,3.0,1,,0,"{""drug_se"": 2, ""drug_disease"": 1, ""protein_disease"": 1}"
+sage,104,test,saliency,True,4.0,5,,0,"{""ddi"": 5, ""drug_se"": 15}"
+sage,104,test,ig,True,4.0,0,,0,{}
+sage,104,test,distance,True,3.0,5,,0,"{""ddi"": 5, ""drug_disease"": 13, ""protein_disease"": 2}"
+sage,104,test,random,False,12.0,0,,0,{}
+sage,105,test,regex,True,2.0,8,,0,"{""drug_disease"": 8, ""protein_disease"": 20}"
+sage,105,test,gnnexplainer,True,2.0,8,,0,"{""drug_disease"": 9, ""protein_disease"": 17}"
+sage,105,test,pgexplainer,True,2.0,0,,0,{}
+sage,105,test,pagelink,True,2.0,1,,0,"{""drug_disease"": 1, ""protein_disease"": 1}"
+sage,105,test,saliency,True,2.0,0,,0,{}
+sage,105,test,ig,True,2.0,8,,0,"{""drug_disease"": 8, ""protein_disease"": 18}"
+sage,105,test,distance,True,2.0,1,,0,"{""drug_disease"": 1, ""protein_disease"": 3}"
+sage,105,test,random,False,5.0,0,,0,{}
+sage,106,test,regex,True,2.0,8,,0,"{""drug_disease"": 8, ""protein_disease"": 17}"
+sage,106,test,gnnexplainer,True,2.0,8,,0,"{""drug_disease"": 9, ""protein_disease"": 14}"
+sage,106,test,pgexplainer,True,2.0,8,,0,"{""drug_disease"": 8, ""protein_disease"": 20}"
+sage,106,test,pagelink,True,2.0,8,,0,"{""drug_disease"": 8, ""protein_disease"": 18}"
+sage,106,test,saliency,True,2.0,8,,0,"{""drug_disease"": 8, ""protein_disease"": 17}"
+sage,106,test,ig,True,2.0,8,,0,"{""drug_disease"": 8, ""protein_disease"": 15}"
+sage,106,test,distance,True,2.0,0,,0,{}
+sage,106,test,random,True,4.0,1,,0,"{""drug_disease"": 1, ""protein_disease"": 3}"
+sage,107,test,regex,True,2.0,8,,0,"{""ddi"": 8, ""dti"": 8, ""protein_disease"": 11}"
+sage,107,test,gnnexplainer,True,2.0,8,,0,"{""ddi"": 8, ""dti"": 8, ""protein_disease"": 10}"
+sage,107,test,pgexplainer,True,3.0,1,,0,"{""drug_se"": 2, ""dti"": 1}"
+sage,107,test,pagelink,True,2.0,2,,0,"{""drug_se"": 2, ""dti"": 2, ""ddi"": 1}"
+sage,107,test,saliency,True,2.0,8,,0,"{""ddi"": 8, ""dti"": 8, ""protein_disease"": 7}"
+sage,107,test,ig,True,2.0,8,,0,"{""ddi"": 6, ""dti"": 8, ""protein_disease"": 5, ""drug_se"": 4}"
+sage,107,test,distance,True,2.0,8,,0,"{""ddi"": 8, ""dti"": 8, ""protein_disease"": 9}"
+sage,107,test,random,True,4.0,1,,0,"{""ddi"": 1, ""drug_disease"": 1, ""protein_disease"": 2}"
+sage,108,test,regex,True,4.0,5,,0,"{""drug_disease"": 7, ""protein_disease"": 13}"
+sage,108,test,gnnexplainer,True,2.0,8,,0,"{""drug_disease"": 8, ""protein_disease"": 17}"
+sage,108,test,pgexplainer,False,,0,,0,{}
+sage,108,test,pagelink,False,,5,,0,"{""ddi"": 5, ""drug_disease"": 7, ""protein_disease"": 8}"
+sage,108,test,saliency,True,2.0,8,,0,"{""drug_disease"": 8, ""protein_disease"": 18}"
+sage,108,test,ig,False,6.0,5,,0,"{""drug_disease"": 5, ""protein_disease"": 15}"
+sage,108,test,distance,True,2.0,0,,0,{}
+sage,108,test,random,True,4.0,5,,0,"{""dti"": 1, ""protein_disease"": 3, ""drug_se"": 16}"
+sage,109,test,regex,True,2.0,8,,0,"{""drug_disease"": 8, ""protein_disease"": 20}"
+sage,109,test,gnnexplainer,True,2.0,8,,0,"{""drug_disease"": 8, ""protein_disease"": 17}"
+sage,109,test,pgexplainer,True,2.0,5,,0,"{""drug_se"": 10, ""drug_disease"": 5, ""protein_disease"": 5}"
+sage,109,test,pagelink,True,2.0,8,,0,"{""drug_disease"": 8, ""protein_disease"": 17}"
+sage,109,test,saliency,True,4.0,3,,0,"{""drug_se"": 12}"
+sage,109,test,ig,True,2.0,8,,0,"{""drug_disease"": 8, ""protein_disease"": 17}"
+sage,109,test,distance,True,2.0,8,,0,"{""drug_disease"": 8, ""protein_disease"": 17}"
+sage,109,test,random,False,8.0,5,,0,"{""drug_se"": 20}"
+sage,110,test,regex,True,2.0,8,,0,"{""drug_disease"": 8, ""protein_disease"": 19}"
+sage,110,test,gnnexplainer,True,2.0,8,,0,"{""drug_disease"": 8, ""protein_disease"": 15}"
+sage,110,test,pgexplainer,False,,0,,0,{}
+sage,110,test,pagelink,True,2.0,8,,0,"{""drug_disease"": 8, ""protein_disease"": 13}"
+sage,110,test,saliency,True,2.0,5,,0,"{""drug_se"": 20}"
+sage,110,test,ig,True,2.0,8,,0,"{""drug_disease"": 8, ""protein_disease"": 13}"
+sage,110,test,distance,True,2.0,1,,0,"{""drug_se"": 2, ""drug_disease"": 1, ""protein_disease"": 1}"
+sage,110,test,random,True,4.0,0,,0,{}
+sage,111,test,regex,True,2.0,8,,0,"{""drug_disease"": 8, ""protein_disease"": 20}"
+sage,111,test,gnnexplainer,True,2.0,8,,0,"{""drug_disease"": 8, ""protein_disease"": 19}"
+sage,111,test,pgexplainer,True,2.0,0,,0,{}
+sage,111,test,pagelink,True,2.0,1,,0,"{""drug_disease"": 1, ""protein_disease"": 1}"
+sage,111,test,saliency,True,4.0,5,,0,"{""drug_se"": 20}"
+sage,111,test,ig,True,2.0,8,,0,"{""drug_disease"": 8, ""protein_disease"": 20}"
+sage,111,test,distance,True,2.0,0,,0,{}
+sage,111,test,random,True,4.0,5,,0,"{""drug_se"": 20}"
+sage,112,test,regex,True,2.0,8,,0,"{""drug_disease"": 8, ""protein_disease"": 19}"
+sage,112,test,gnnexplainer,True,2.0,8,,0,"{""drug_disease"": 8, ""protein_disease"": 15}"
+sage,112,test,pgexplainer,True,2.0,0,,0,{}
+sage,112,test,pagelink,True,2.0,8,,0,"{""drug_disease"": 8, ""protein_disease"": 15}"
+sage,112,test,saliency,True,2.0,8,,0,"{""drug_disease"": 8, ""protein_disease"": 13}"
+sage,112,test,ig,True,2.0,8,,0,"{""drug_disease"": 8, ""protein_disease"": 15}"
+sage,112,test,distance,True,2.0,1,,0,"{""drug_disease"": 1, ""protein_disease"": 3}"
+sage,112,test,random,False,,5,,0,"{""drug_disease"": 5, ""protein_disease"": 15}"
+sage,113,test,regex,True,4.0,5,,0,"{""drug_disease"": 3, ""protein_disease"": 9, ""drug_se"": 8}"
+sage,113,test,gnnexplainer,False,6.0,5,,0,"{""drug_disease"": 6, ""protein_disease"": 14}"
+sage,113,test,pgexplainer,False,,5,,0,"{""drug_disease"": 5, ""protein_disease"": 15}"
+sage,113,test,pagelink,True,4.0,5,,0,"{""drug_se"": 20}"
+sage,113,test,saliency,True,4.0,4,,0,"{""drug_disease"": 4, ""protein_disease"": 12}"
+sage,113,test,ig,True,4.0,2,,0,"{""drug_disease"": 2, ""protein_disease"": 6}"
+sage,113,test,distance,True,4.0,5,,0,"{""drug_disease"": 19, ""protein_disease"": 1}"
+sage,113,test,random,False,,0,,0,{}
+sage,114,test,regex,True,2.0,5,,0,"{""ddi"": 5, ""drug_disease"": 5, ""protein_disease"": 9}"
+sage,114,test,gnnexplainer,True,2.0,8,,0,"{""drug_disease"": 10, ""protein_disease"": 15}"
+sage,114,test,pgexplainer,True,4.0,0,,0,{}
+sage,114,test,pagelink,True,2.0,8,,0,"{""ddi"": 4, ""drug_disease"": 10, ""protein_disease"": 13}"
+sage,114,test,saliency,True,2.0,8,,0,"{""drug_disease"": 9, ""protein_disease"": 16}"
+sage,114,test,ig,True,2.0,8,,0,"{""drug_disease"": 10, ""protein_disease"": 13, ""ddi"": 2}"
+sage,114,test,distance,True,2.0,2,,0,"{""drug_disease"": 2, ""protein_disease"": 6}"
+sage,114,test,random,False,10.0,4,,0,"{""drug_disease"": 16}"
+sage,115,test,regex,True,2.0,2,,0,"{""drug_se"": 8}"
+sage,115,test,gnnexplainer,True,2.0,8,,0,"{""drug_disease"": 8, ""protein_disease"": 15}"
+sage,115,test,pgexplainer,False,,0,,0,{}
+sage,115,test,pagelink,True,2.0,8,,0,"{""dti"": 8, ""protein_disease"": 20}"
+sage,115,test,saliency,True,2.0,8,,0,"{""drug_disease"": 8, ""protein_disease"": 15}"
+sage,115,test,ig,True,2.0,8,,0,"{""drug_disease"": 8, ""protein_disease"": 17}"
+sage,115,test,distance,True,2.0,3,,0,"{""drug_disease"": 3, ""protein_disease"": 9}"
+sage,115,test,random,False,,0,,0,{}
+sage,116,test,regex,True,3.0,1,,0,"{""dti"": 1, ""protein_disease"": 3}"
+sage,116,test,gnnexplainer,True,3.0,1,,0,"{""drug_se"": 2, ""drug_disease"": 1, ""protein_disease"": 1}"
+sage,116,test,pgexplainer,False,,0,,0,{}
+sage,116,test,pagelink,False,,5,,0,"{""drug_se"": 12, ""dti"": 2, ""protein_disease"": 6}"
+sage,116,test,saliency,True,3.0,6,,0,"{""dti"": 6, ""protein_disease"": 17}"
+sage,116,test,ig,False,,1,,0,"{""dti"": 1, ""protein_disease"": 3}"
+sage,116,test,distance,True,2.0,8,,0,"{""drug_disease"": 8, ""protein_disease"": 17}"
+sage,116,test,random,True,4.0,0,,0,{}
+sage,117,test,regex,True,2.0,6,,0,"{""ddi"": 6, ""drug_disease"": 6, ""protein_disease"": 11}"
+sage,117,test,gnnexplainer,True,2.0,8,,0,"{""drug_disease"": 8, ""protein_disease"": 14, ""ddi"": 4}"
+sage,117,test,pgexplainer,True,2.0,0,,0,{}
+sage,117,test,pagelink,True,2.0,8,,0,"{""dti"": 3, ""protein_disease"": 17, ""ddi"": 3, ""drug_disease"": 5}"
+sage,117,test,saliency,True,2.0,6,,0,"{""ddi"": 6, ""drug_disease"": 6, ""protein_disease"": 11}"
+sage,117,test,ig,True,2.0,8,,0,"{""drug_disease"": 8, ""protein_disease"": 14, ""ddi"": 4}"
+sage,117,test,distance,True,2.0,5,,0,"{""drug_se"": 20}"
+sage,117,test,random,False,,0,,0,{}
+sage,118,test,regex,False,8.0,5,,0,"{""drug_disease"": 15, ""protein_disease"": 5}"
+sage,118,test,gnnexplainer,False,6.0,0,,0,{}
+sage,118,test,pgexplainer,False,,0,,0,{}
+sage,118,test,pagelink,False,,0,,0,{}
+sage,118,test,saliency,True,2.0,6,,0,"{""ddi"": 6, ""drug_disease"": 6, ""protein_disease"": 11}"
+sage,118,test,ig,True,4.0,5,,0,"{""drug_disease"": 12, ""drug_se"": 6, ""protein_disease"": 2}"
+sage,118,test,distance,True,2.0,0,,0,{}
+sage,118,test,random,True,3.0,4,,0,"{""drug_se"": 16}"
+sage,119,test,regex,True,2.0,1,,0,"{""drug_se"": 4}"
+sage,119,test,gnnexplainer,True,2.0,8,,0,"{""drug_disease"": 9, ""protein_disease"": 16}"
+sage,119,test,pgexplainer,True,2.0,0,,0,{}
+sage,119,test,pagelink,True,2.0,8,,0,"{""dti"": 3, ""protein_disease"": 17, ""drug_disease"": 5}"
+sage,119,test,saliency,True,2.0,5,,0,"{""drug_se"": 20}"
+sage,119,test,ig,True,2.0,8,,0,"{""drug_disease"": 8, ""protein_disease"": 15}"
+sage,119,test,distance,True,2.0,5,,0,"{""drug_se"": 20}"
+sage,119,test,random,True,4.0,0,,0,{}
+sage,120,test,regex,True,2.0,0,,0,{}
+sage,120,test,gnnexplainer,True,2.0,8,,0,"{""drug_disease"": 8, ""protein_disease"": 16}"
+sage,120,test,pgexplainer,True,2.0,0,,0,{}
+sage,120,test,pagelink,True,2.0,1,,0,"{""drug_disease"": 1, ""protein_disease"": 1}"
+sage,120,test,saliency,True,2.0,5,,0,"{""drug_se"": 20}"
+sage,120,test,ig,True,2.0,8,,0,"{""drug_disease"": 8, ""protein_disease"": 20}"
+sage,120,test,distance,True,2.0,1,,0,"{""drug_se"": 2, ""drug_disease"": 1, ""protein_disease"": 1}"
+sage,120,test,random,False,,3,,0,"{""drug_disease"": 3, ""protein_disease"": 9}"
+sage,121,test,regex,False,8.0,5,,0,"{""drug_disease"": 8, ""protein_disease"": 12}"
+sage,121,test,gnnexplainer,True,4.0,1,,0,"{""drug_disease"": 1, ""protein_disease"": 3}"
+sage,121,test,pgexplainer,False,,0,,0,{}
+sage,121,test,pagelink,False,,0,,0,{}
+sage,121,test,saliency,False,5.0,2,,0,"{""ddi"": 2, ""drug_disease"": 2, ""protein_disease"": 4}"
+sage,121,test,ig,False,6.0,0,,0,{}
+sage,121,test,distance,True,2.0,0,,0,{}
+sage,121,test,random,False,10.0,0,,0,{}
+sage,122,test,regex,False,,5,,0,"{""drug_se"": 20}"
+sage,122,test,gnnexplainer,False,,5,,0,"{""drug_se"": 20}"
+sage,122,test,pgexplainer,False,,0,,0,{}
+sage,122,test,pagelink,True,3.0,2,,0,"{""drug_se"": 4, ""drug_disease"": 2, ""protein_disease"": 2}"
+sage,122,test,saliency,True,4.0,5,,0,"{""drug_se"": 20}"
+sage,122,test,ig,False,,5,,0,"{""drug_se"": 20}"
+sage,122,test,distance,True,3.0,6,,0,"{""dti"": 6, ""protein_disease"": 17}"
+sage,122,test,random,True,3.0,0,,0,{}
+sage,123,test,regex,True,2.0,8,,0,"{""drug_disease"": 9, ""protein_disease"": 17}"
+sage,123,test,gnnexplainer,True,2.0,8,,0,"{""drug_disease"": 8, ""protein_disease"": 15}"
+sage,123,test,pgexplainer,True,2.0,0,,0,{}
+sage,123,test,pagelink,True,2.0,8,,0,"{""drug_disease"": 8, ""protein_disease"": 18}"
+sage,123,test,saliency,True,4.0,5,,0,"{""ddi"": 1, ""drug_disease"": 14, ""protein_disease"": 5}"
+sage,123,test,ig,True,2.0,8,,0,"{""drug_disease"": 8, ""protein_disease"": 17}"
+sage,123,test,distance,True,2.0,8,,0,"{""drug_disease"": 8, ""protein_disease"": 17}"
+sage,123,test,random,False,,0,,0,{}
+sage,124,test,regex,False,12.0,4,,0,"{""drug_se"": 8, ""drug_disease"": 7, ""protein_disease"": 1}"
+sage,124,test,gnnexplainer,True,2.0,5,,0,"{""drug_disease"": 15, ""protein_disease"": 5}"
+sage,124,test,pgexplainer,False,,5,,0,"{""drug_disease"": 5, ""protein_disease"": 15}"
+sage,124,test,pagelink,False,,0,,0,{}
+sage,124,test,saliency,True,2.0,8,,0,"{""drug_disease"": 8, ""protein_disease"": 18}"
+sage,124,test,ig,True,4.0,4,,0,"{""drug_disease"": 5, ""protein_disease"": 11}"
+sage,124,test,distance,True,2.0,8,,0,"{""drug_disease"": 9, ""protein_disease"": 16}"
+sage,124,test,random,False,12.0,5,,0,"{""drug_disease"": 10, ""drug_se"": 10}"
+sage,125,test,regex,False,6.0,5,,0,"{""drug_se"": 20}"
+sage,125,test,gnnexplainer,True,4.0,5,,0,"{""drug_se"": 20}"
+sage,125,test,pgexplainer,False,,0,,0,{}
+sage,125,test,pagelink,False,,5,,0,"{""drug_se"": 20}"
+sage,125,test,saliency,True,4.0,5,,0,"{""drug_se"": 20}"
+sage,125,test,ig,False,6.0,5,,0,"{""drug_se"": 20}"
+sage,125,test,distance,True,3.0,5,,0,"{""drug_se"": 20}"
+sage,125,test,random,False,,5,,0,"{""drug_disease"": 3, ""protein_disease"": 9, ""drug_se"": 8}"
+sage,126,test,regex,False,,5,,0,"{""drug_se"": 20}"
+sage,126,test,gnnexplainer,True,2.0,0,,0,{}
+sage,126,test,pgexplainer,False,,0,,0,{}
+sage,126,test,pagelink,False,10.0,5,,0,"{""drug_se"": 10, ""drug_disease"": 5, ""protein_disease"": 5}"
+sage,126,test,saliency,True,2.0,5,,0,"{""drug_se"": 20}"
+sage,126,test,ig,True,2.0,5,,0,"{""drug_se"": 20}"
+sage,126,test,distance,True,2.0,0,,0,{}
+sage,126,test,random,False,,0,,0,{}
+sage,127,test,regex,True,4.0,5,,0,"{""ddi"": 2, ""drug_se"": 18}"
+sage,127,test,gnnexplainer,True,3.0,5,,0,"{""drug_se"": 20}"
+sage,127,test,pgexplainer,False,,0,,0,{}
+sage,127,test,pagelink,True,3.0,1,,0,"{""dti"": 1, ""protein_disease"": 2}"
+sage,127,test,saliency,True,3.0,3,,0,"{""ddi"": 3, ""drug_se"": 9}"
+sage,127,test,ig,True,3.0,6,,0,"{""dti"": 6, ""protein_disease"": 17}"
+sage,127,test,distance,True,2.0,5,,0,"{""drug_se"": 20}"
+sage,127,test,random,False,,0,,0,{}
+sage,128,test,regex,True,2.0,8,,0,"{""ddi"": 8, ""dti"": 8, ""protein_disease"": 11, ""drug_disease"": 1}"
+sage,128,test,gnnexplainer,True,2.0,8,,0,"{""ddi"": 8, ""dti"": 8, ""protein_disease"": 10}"
+sage,128,test,pgexplainer,False,,0,,0,{}
+sage,128,test,pagelink,True,2.0,8,,0,"{""dti"": 10, ""protein_disease"": 11, ""drug_disease"": 2, ""ddi"": 5}"
+sage,128,test,saliency,True,2.0,8,,0,"{""ddi"": 8, ""dti"": 8, ""protein_disease"": 8}"
+sage,128,test,ig,True,2.0,8,,0,"{""ddi"": 8, ""dti"": 8, ""protein_disease"": 8}"
+sage,128,test,distance,True,2.0,8,,0,"{""ddi"": 8, ""dti"": 8, ""protein_disease"": 9}"
+sage,128,test,random,True,4.0,1,,0,"{""drug_disease"": 1, ""protein_disease"": 3}"
+sage,129,test,regex,False,,0,,0,{}
+sage,129,test,gnnexplainer,False,8.0,1,,0,"{""dti"": 1, ""protein_disease"": 3}"
+sage,129,test,pgexplainer,False,,0,,0,{}
+sage,129,test,pagelink,False,20.0,5,,0,"{""drug_se"": 16, ""dti"": 1, ""protein_disease"": 3}"
+sage,129,test,saliency,False,5.0,0,,0,{}
+sage,129,test,ig,False,5.0,2,,0,"{""dti"": 2, ""protein_disease"": 6}"
+sage,129,test,distance,True,2.0,1,,0,"{""drug_se"": 2, ""drug_disease"": 1, ""protein_disease"": 1}"
+sage,129,test,random,False,8.0,5,,0,"{""drug_se"": 10, ""drug_disease"": 5, ""protein_disease"": 5}"
+sage,130,test,regex,False,8.0,5,,0,"{""drug_se"": 20}"
+sage,130,test,gnnexplainer,True,2.0,4,,0,"{""drug_se"": 16}"
+sage,130,test,pgexplainer,False,,0,,0,{}
+sage,130,test,pagelink,False,10.0,5,,0,"{""drug_se"": 10, ""drug_disease"": 7, ""protein_disease"": 3}"
+sage,130,test,saliency,True,2.0,5,,0,"{""drug_se"": 20}"
+sage,130,test,ig,False,,5,,0,"{""drug_se"": 20}"
+sage,130,test,distance,True,2.0,1,,0,"{""drug_disease"": 1, ""protein_disease"": 3}"
+sage,130,test,random,True,4.0,0,,0,{}
+sage,131,test,regex,True,2.0,8,,0,"{""drug_disease"": 8, ""protein_disease"": 19}"
+sage,131,test,gnnexplainer,True,2.0,8,,0,"{""drug_disease"": 9, ""protein_disease"": 14}"
+sage,131,test,pgexplainer,True,2.0,0,,0,{}
+sage,131,test,pagelink,True,2.0,8,,0,"{""drug_disease"": 10, ""protein_disease"": 16}"
+sage,131,test,saliency,True,2.0,8,,0,"{""drug_disease"": 8, ""protein_disease"": 17}"
+sage,131,test,ig,True,2.0,8,,0,"{""drug_disease"": 8, ""protein_disease"": 15}"
+sage,131,test,distance,True,2.0,0,,0,{}
+sage,131,test,random,False,6.0,5,,0,"{""drug_disease"": 5, ""protein_disease"": 15}"
+sage,132,test,regex,True,2.0,5,,0,"{""drug_disease"": 10, ""drug_se"": 10}"
+sage,132,test,gnnexplainer,True,2.0,7,,0,"{""dti"": 7, ""protein_disease"": 19}"
+sage,132,test,pgexplainer,False,,0,,0,{}
+sage,132,test,pagelink,True,3.0,6,,0,"{""dti"": 6, ""protein_disease"": 16}"
+sage,132,test,saliency,True,3.0,5,,0,"{""drug_se"": 20}"
+sage,132,test,ig,True,2.0,5,,0,"{""drug_se"": 20}"
+sage,132,test,distance,True,2.0,3,,0,"{""drug_se"": 12}"
+sage,132,test,random,False,,5,,0,"{""drug_disease"": 5, ""protein_disease"": 15}"
+sage,133,test,regex,False,,5,,0,"{""drug_se"": 16, ""drug_disease"": 1, ""protein_disease"": 3}"
+sage,133,test,gnnexplainer,False,12.0,5,,0,"{""drug_se"": 18, ""ddi"": 1, ""drug_disease"": 1}"
+sage,133,test,pgexplainer,False,,0,,0,{}
+sage,133,test,pagelink,True,3.0,2,,0,"{""drug_disease"": 1, ""protein_disease"": 5, ""dti"": 1}"
+sage,133,test,saliency,True,4.0,0,,0,{}
+sage,133,test,ig,True,4.0,5,,0,"{""drug_se"": 20}"
+sage,133,test,distance,True,2.0,4,,0,"{""drug_se"": 16}"
+sage,133,test,random,False,,4,,0,"{""drug_se"": 16}"
+sage,134,test,regex,False,,0,,0,{}
+sage,134,test,gnnexplainer,False,10.0,5,,0,"{""drug_se"": 17, ""ddi"": 3}"
+sage,134,test,pgexplainer,False,,5,,0,"{""drug_se"": 10, ""drug_disease"": 5, ""protein_disease"": 5}"
+sage,134,test,pagelink,False,,0,,0,{}
+sage,134,test,saliency,True,4.0,0,,0,{}
+sage,134,test,ig,True,4.0,5,,0,"{""drug_se"": 20}"
+sage,134,test,distance,True,3.0,5,,0,"{""drug_se"": 20}"
+sage,134,test,random,False,,0,,0,{}
+sage,135,test,regex,False,10.0,5,,0,"{""drug_se"": 20}"
+sage,135,test,gnnexplainer,True,2.0,8,,0,"{""drug_disease"": 8, ""protein_disease"": 17}"
+sage,135,test,pgexplainer,False,,0,,0,{}
+sage,135,test,pagelink,True,2.0,8,,0,"{""dti"": 2, ""protein_disease"": 20, ""drug_disease"": 6}"
+sage,135,test,saliency,True,2.0,8,,0,"{""drug_disease"": 8, ""protein_disease"": 17}"
+sage,135,test,ig,True,4.0,0,,0,{}
+sage,135,test,distance,True,2.0,0,,0,{}
+sage,135,test,random,True,4.0,2,,0,"{""drug_se"": 4, ""drug_disease"": 3, ""protein_disease"": 1}"
+sage,136,test,regex,True,2.0,6,,0,"{""drug_se"": 12, ""dti"": 6, ""protein_disease"": 4}"
+sage,136,test,gnnexplainer,True,4.0,5,,0,"{""drug_disease"": 16, ""protein_disease"": 4}"
+sage,136,test,pgexplainer,False,5.0,5,,0,"{""drug_disease"": 6, ""protein_disease"": 14}"
+sage,136,test,pagelink,True,2.0,2,,0,"{""drug_disease"": 2, ""dti"": 2, ""ddi"": 1}"
+sage,136,test,saliency,True,2.0,8,,0,"{""ddi"": 8, ""dti"": 8, ""protein_disease"": 9}"
+sage,136,test,ig,True,2.0,8,,0,"{""ddi"": 8, ""dti"": 8, ""protein_disease"": 12}"
+sage,136,test,distance,True,2.0,0,,0,{}
+sage,136,test,random,False,6.0,5,,0,"{""drug_se"": 14, ""drug_disease"": 6}"
+sage,137,test,regex,True,2.0,8,,0,"{""drug_disease"": 8, ""protein_disease"": 19}"
+sage,137,test,gnnexplainer,True,2.0,8,,0,"{""drug_disease"": 8, ""protein_disease"": 18}"
+sage,137,test,pgexplainer,True,2.0,0,,0,{}
+sage,137,test,pagelink,True,2.0,1,,0,"{""drug_disease"": 1, ""protein_disease"": 1}"
+sage,137,test,saliency,True,2.0,5,,0,"{""drug_se"": 10, ""drug_disease"": 6, ""protein_disease"": 4}"
+sage,137,test,ig,True,2.0,8,,0,"{""drug_disease"": 8, ""protein_disease"": 17}"
+sage,137,test,distance,True,2.0,0,,0,{}
+sage,137,test,random,False,8.0,5,,0,"{""drug_disease"": 16, ""protein_disease"": 4}"
+sage,138,test,regex,True,2.0,8,,0,"{""drug_disease"": 8, ""protein_disease"": 19}"
+sage,138,test,gnnexplainer,True,2.0,8,,0,"{""drug_disease"": 8, ""protein_disease"": 17}"
+sage,138,test,pgexplainer,True,2.0,0,,0,{}
+sage,138,test,pagelink,True,2.0,8,,0,"{""ddi"": 3, ""drug_disease"": 9, ""protein_disease"": 14}"
+sage,138,test,saliency,True,2.0,8,,0,"{""drug_disease"": 9, ""protein_disease"": 16}"
+sage,138,test,ig,True,2.0,8,,0,"{""drug_disease"": 10, ""protein_disease"": 15}"
+sage,138,test,distance,True,2.0,0,,0,{}
+sage,138,test,random,True,4.0,0,,0,{}
+sage,139,test,regex,True,2.0,8,,0,"{""drug_se"": 9, ""dti"": 7, ""protein_disease"": 7, ""drug_disease"": 5}"
+sage,139,test,gnnexplainer,True,2.0,8,,0,"{""ddi"": 8, ""dti"": 8, ""protein_disease"": 10}"
+sage,139,test,pgexplainer,True,2.0,0,,0,{}
+sage,139,test,pagelink,True,2.0,8,,0,"{""drug_se"": 7, ""dti"": 8, ""ddi"": 2, ""protein_disease"": 6, ""drug_disease"": 4}"
+sage,139,test,saliency,True,2.0,8,,0,"{""ddi"": 4, ""dti"": 6, ""protein_disease"": 8, ""drug_disease"": 5}"
+sage,139,test,ig,True,2.0,8,,0,"{""drug_disease"": 6, ""protein_disease"": 8, ""dti"": 6, ""ddi"": 2, ""drug_se"": 3}"
+sage,139,test,distance,True,2.0,8,,0,"{""drug_disease"": 8, ""protein_disease"": 17}"
+sage,139,test,random,True,3.0,5,,0,"{""drug_disease"": 3, ""protein_disease"": 9, ""drug_se"": 8}"
+sage,140,test,regex,False,6.0,0,,0,{}
+sage,140,test,gnnexplainer,False,,0,,0,{}
+sage,140,test,pgexplainer,False,,1,,0,"{""dti"": 1, ""protein_disease"": 3}"
+sage,140,test,pagelink,False,20.0,5,,0,"{""drug_se"": 20}"
+sage,140,test,saliency,True,4.0,5,,0,"{""drug_se"": 20}"
+sage,140,test,ig,True,4.0,5,,0,"{""drug_se"": 20}"
+sage,140,test,distance,True,4.0,2,,0,"{""drug_se"": 8}"
+sage,140,test,random,False,,5,,0,"{""drug_se"": 20}"
+sage,141,test,regex,True,2.0,8,,0,"{""drug_disease"": 10, ""protein_disease"": 19}"
+sage,141,test,gnnexplainer,True,2.0,8,,0,"{""drug_disease"": 10, ""protein_disease"": 15}"
+sage,141,test,pgexplainer,True,4.0,0,,0,{}
+sage,141,test,pagelink,True,2.0,8,,0,"{""ddi"": 6, ""drug_disease"": 6, ""protein_disease"": 15, ""dti"": 2}"
+sage,141,test,saliency,True,2.0,8,,0,"{""drug_disease"": 8, ""protein_disease"": 17}"
+sage,141,test,ig,True,2.0,8,,0,"{""drug_disease"": 10, ""protein_disease"": 14}"
+sage,141,test,distance,True,2.0,2,,0,"{""dti"": 2, ""protein_disease"": 6}"
+sage,141,test,random,True,3.0,6,,0,"{""dti"": 6, ""protein_disease"": 17}"
+sage,142,test,regex,False,6.0,5,,0,"{""drug_se"": 10, ""drug_disease"": 10}"
+sage,142,test,gnnexplainer,False,,5,,0,"{""drug_se"": 10, ""drug_disease"": 7, ""protein_disease"": 3}"
+sage,142,test,pgexplainer,False,,0,,0,{}
+sage,142,test,pagelink,False,,0,,0,{}
+sage,142,test,saliency,True,2.0,8,,0,"{""drug_disease"": 8, ""protein_disease"": 19, ""ppi"": 1}"
+sage,142,test,ig,False,6.0,0,,0,{}
+sage,142,test,distance,True,2.0,0,,0,{}
+sage,142,test,random,False,,0,,0,{}
+sage,143,test,regex,True,2.0,8,,0,"{""drug_disease"": 9, ""protein_disease"": 19}"
+sage,143,test,gnnexplainer,True,2.0,8,,0,"{""drug_disease"": 8, ""protein_disease"": 18}"
+sage,143,test,pgexplainer,True,2.0,5,,0,"{""drug_disease"": 5, ""protein_disease"": 15}"
+sage,143,test,pagelink,True,2.0,8,,0,"{""drug_disease"": 11, ""protein_disease"": 15}"
+sage,143,test,saliency,True,4.0,0,,0,{}
+sage,143,test,ig,True,2.0,8,,0,"{""drug_disease"": 8, ""protein_disease"": 15}"
+sage,143,test,distance,True,2.0,1,,0,"{""drug_disease"": 1, ""protein_disease"": 3}"
+sage,143,test,random,True,4.0,0,,0,{}
+sage,144,test,regex,True,2.0,8,,0,"{""drug_disease"": 10, ""protein_disease"": 19}"
+sage,144,test,gnnexplainer,True,2.0,8,,0,"{""drug_disease"": 9, ""protein_disease"": 16}"
+sage,144,test,pgexplainer,True,2.0,0,,0,{}
+sage,144,test,pagelink,True,2.0,8,,0,"{""drug_disease"": 10, ""protein_disease"": 18}"
+sage,144,test,saliency,True,2.0,8,,0,"{""drug_disease"": 8, ""protein_disease"": 17}"
+sage,144,test,ig,True,4.0,5,,0,"{""drug_se"": 10, ""drug_disease"": 5, ""protein_disease"": 5}"
+sage,144,test,distance,True,2.0,1,,0,"{""drug_disease"": 3, ""protein_disease"": 1}"
+sage,144,test,random,True,4.0,1,,0,"{""drug_se"": 2, ""drug_disease"": 1, ""protein_disease"": 1}"
+sage,145,test,regex,True,2.0,5,,0,"{""drug_se"": 20}"
+sage,145,test,gnnexplainer,True,2.0,8,,0,"{""drug_disease"": 8, ""protein_disease"": 19}"
+sage,145,test,pgexplainer,True,2.0,0,,0,{}
+sage,145,test,pagelink,True,2.0,1,,0,"{""drug_disease"": 1, ""protein_disease"": 1}"
+sage,145,test,saliency,True,4.0,5,,0,"{""drug_se"": 17, ""ddi"": 2, ""drug_disease"": 1}"
+sage,145,test,ig,True,2.0,8,,0,"{""drug_disease"": 8, ""protein_disease"": 20}"
+sage,145,test,distance,True,2.0,4,,0,"{""drug_se"": 16}"
+sage,145,test,random,True,4.0,5,,0,"{""drug_se"": 20}"
+sage,146,test,regex,True,2.0,8,,0,"{""drug_disease"": 8, ""protein_disease"": 20}"
+sage,146,test,gnnexplainer,True,2.0,8,,0,"{""drug_disease"": 8, ""protein_disease"": 15}"
+sage,146,test,pgexplainer,True,2.0,0,,0,{}
+sage,146,test,pagelink,True,2.0,8,,0,"{""ddi"": 5, ""drug_disease"": 9, ""protein_disease"": 12}"
+sage,146,test,saliency,True,2.0,4,,0,"{""drug_se"": 8, ""drug_disease"": 5, ""protein_disease"": 3}"
+sage,146,test,ig,True,2.0,8,,0,"{""drug_disease"": 9, ""protein_disease"": 14}"
+sage,146,test,distance,True,2.0,0,,0,{}
+sage,146,test,random,True,3.0,2,,0,"{""dti"": 2, ""protein_disease"": 6}"
+sage,147,test,regex,True,2.0,8,,0,"{""drug_disease"": 9, ""protein_disease"": 18}"
+sage,147,test,gnnexplainer,True,2.0,8,,0,"{""drug_disease"": 8, ""protein_disease"": 17}"
+sage,147,test,pgexplainer,True,2.0,0,,0,{}
+sage,147,test,pagelink,True,2.0,8,,0,"{""ddi"": 2, ""drug_disease"": 10, ""protein_disease"": 13}"
+sage,147,test,saliency,True,2.0,8,,0,"{""drug_disease"": 8, ""protein_disease"": 17}"
+sage,147,test,ig,True,2.0,8,,0,"{""drug_disease"": 10, ""protein_disease"": 15}"
+sage,147,test,distance,True,2.0,8,,0,"{""drug_disease"": 8, ""protein_disease"": 17}"
+sage,147,test,random,True,4.0,5,,0,"{""drug_disease"": 5, ""protein_disease"": 15}"
+sage,148,test,regex,True,2.0,8,,0,"{""drug_disease"": 8, ""protein_disease"": 19}"
+sage,148,test,gnnexplainer,True,4.0,1,,0,"{""drug_disease"": 3, ""protein_disease"": 1}"
+sage,148,test,pgexplainer,True,2.0,5,,0,"{""drug_disease"": 5, ""protein_disease"": 15}"
+sage,148,test,pagelink,True,2.0,1,,0,"{""drug_disease"": 1, ""protein_disease"": 1}"
+sage,148,test,saliency,True,4.0,5,,0,"{""drug_se"": 10, ""drug_disease"": 5, ""protein_disease"": 5}"
+sage,148,test,ig,True,2.0,8,,0,"{""drug_disease"": 8, ""protein_disease"": 17}"
+sage,148,test,distance,True,2.0,1,,0,"{""drug_disease"": 1, ""protein_disease"": 3}"
+sage,148,test,random,False,,3,,0,"{""drug_disease"": 3, ""protein_disease"": 9}"
+sage,149,test,regex,True,2.0,8,,0,"{""drug_disease"": 8, ""protein_disease"": 18}"
+sage,149,test,gnnexplainer,True,2.0,8,,0,"{""drug_disease"": 8, ""protein_disease"": 17}"
+sage,149,test,pgexplainer,True,2.0,0,,0,{}
+sage,149,test,pagelink,True,2.0,8,,0,"{""drug_disease"": 9, ""protein_disease"": 17}"
+sage,149,test,saliency,True,4.0,5,,0,"{""drug_disease"": 5, ""protein_disease"": 15}"
+sage,149,test,ig,True,2.0,8,,0,"{""drug_disease"": 8, ""protein_disease"": 19}"
+sage,149,test,distance,True,2.0,0,,0,{}
+sage,149,test,random,False,8.0,5,,0,"{""drug_disease"": 6, ""protein_disease"": 14}"
+sage,150,test,regex,True,3.0,7,,0,"{""drug_disease"": 14, ""dti"": 7, ""protein_disease"": 3, ""ppi"": 2}"
+sage,150,test,gnnexplainer,True,3.0,7,,0,"{""drug_disease"": 14, ""dti"": 7, ""ppi"": 2, ""protein_disease"": 3}"
+sage,150,test,pgexplainer,False,,0,,0,{}
+sage,150,test,pagelink,False,10.0,2,,0,"{""drug_disease"": 8}"
+sage,150,test,saliency,True,3.0,7,,0,"{""drug_disease"": 14, ""dti"": 7, ""protein_disease"": 3, ""ppi"": 2}"
+sage,150,test,ig,True,3.0,7,,0,"{""drug_disease"": 14, ""dti"": 7, ""ppi"": 2, ""protein_disease"": 3}"
+sage,150,test,distance,True,2.0,0,,0,{}
+sage,150,test,random,True,2.0,1,,0,"{""drug_disease"": 1, ""protein_disease"": 1}"
+sage,151,test,regex,True,2.0,8,,0,"{""drug_disease"": 8, ""protein_disease"": 21}"
+sage,151,test,gnnexplainer,True,2.0,8,,0,"{""drug_disease"": 8, ""protein_disease"": 17}"
+sage,151,test,pgexplainer,True,2.0,0,,0,{}
+sage,151,test,pagelink,True,2.0,6,,0,"{""drug_disease"": 1, ""protein_disease"": 17, ""dti"": 5}"
+sage,151,test,saliency,True,4.0,1,,0,"{""dti"": 1, ""protein_disease"": 3}"
+sage,151,test,ig,True,2.0,8,,0,"{""drug_disease"": 8, ""protein_disease"": 17}"
+sage,151,test,distance,True,2.0,1,,0,"{""drug_disease"": 1, ""protein_disease"": 3}"
+sage,151,test,random,True,4.0,1,,0,"{""drug_disease"": 1, ""protein_disease"": 3}"
+sage,152,test,regex,False,,5,,0,"{""drug_disease"": 5, ""protein_disease"": 15}"
+sage,152,test,gnnexplainer,True,4.0,0,,0,{}
+sage,152,test,pgexplainer,False,,0,,0,{}
+sage,152,test,pagelink,False,,0,,0,{}
+sage,152,test,saliency,True,4.0,0,,0,{}
+sage,152,test,ig,True,4.0,5,,0,"{""drug_disease"": 6, ""protein_disease"": 14}"
+sage,152,test,distance,True,2.0,0,,0,{}
+sage,152,test,random,False,6.0,5,,0,"{""drug_disease"": 5, ""protein_disease"": 15}"
+sage,153,test,regex,False,7.0,5,,0,"{""drug_disease"": 5, ""protein_disease"": 11, ""drug_se"": 4}"
+sage,153,test,gnnexplainer,True,2.0,8,,0,"{""drug_disease"": 8, ""protein_disease"": 17}"
+sage,153,test,pgexplainer,False,,0,,0,{}
+sage,153,test,pagelink,True,2.0,1,,0,"{""drug_disease"": 1, ""protein_disease"": 1}"
+sage,153,test,saliency,True,2.0,8,,0,"{""drug_disease"": 8, ""protein_disease"": 20}"
+sage,153,test,ig,True,4.0,3,,0,"{""dti"": 3, ""protein_disease"": 7, ""drug_disease"": 1, ""drug_se"": 1}"
+sage,153,test,distance,True,2.0,2,,0,"{""drug_disease"": 2, ""protein_disease"": 6}"
+sage,153,test,random,False,6.0,0,,0,{}
+sage,154,test,regex,True,4.0,5,,0,"{""drug_disease"": 5, ""protein_disease"": 15}"
+sage,154,test,gnnexplainer,True,2.0,8,,0,"{""drug_disease"": 8, ""protein_disease"": 17}"
+sage,154,test,pgexplainer,False,,0,,0,{}
+sage,154,test,pagelink,False,,0,,0,{}
+sage,154,test,saliency,True,2.0,8,,0,"{""drug_disease"": 8, ""protein_disease"": 21}"
+sage,154,test,ig,False,6.0,5,,0,"{""drug_se"": 10, ""drug_disease"": 9, ""protein_disease"": 1}"
+sage,154,test,distance,True,2.0,2,,0,"{""drug_disease"": 2, ""protein_disease"": 6}"
+sage,154,test,random,False,8.0,2,,0,"{""drug_disease"": 8}"
+sage,155,test,regex,True,4.0,0,,0,{}
+sage,155,test,gnnexplainer,True,2.0,8,,0,"{""drug_disease"": 8, ""protein_disease"": 15}"
+sage,155,test,pgexplainer,False,,0,,0,{}
+sage,155,test,pagelink,True,2.0,8,,0,"{""drug_disease"": 8, ""protein_disease"": 18}"
+sage,155,test,saliency,True,2.0,8,,0,"{""drug_disease"": 8, ""protein_disease"": 15}"
+sage,155,test,ig,True,4.0,0,,0,{}
+sage,155,test,distance,True,2.0,5,,0,"{""drug_disease"": 10, ""drug_se"": 10}"
+sage,155,test,random,False,,4,,0,"{""ddi"": 8, ""drug_disease"": 6, ""drug_se"": 2}"
+sage,156,test,regex,True,2.0,5,,0,"{""drug_disease"": 5, ""protein_disease"": 15}"
+sage,156,test,gnnexplainer,True,2.0,0,,0,{}
+sage,156,test,pgexplainer,False,,0,,0,{}
+sage,156,test,pagelink,False,8.0,4,,0,"{""drug_disease"": 4, ""protein_disease"": 12}"
+sage,156,test,saliency,True,2.0,8,,0,"{""drug_disease"": 8, ""protein_disease"": 19}"
+sage,156,test,ig,True,2.0,5,,0,"{""drug_se"": 20}"
+sage,156,test,distance,True,2.0,8,,0,"{""drug_disease"": 8, ""protein_disease"": 13}"
+sage,156,test,random,True,4.0,5,,0,"{""drug_disease"": 16, ""protein_disease"": 4}"
+sage,157,test,regex,True,2.0,8,,0,"{""ddi"": 8, ""dti"": 6, ""protein_disease"": 10, ""drug_disease"": 3}"
+sage,157,test,gnnexplainer,True,4.0,5,,0,"{""drug_disease"": 5, ""protein_disease"": 15}"
+sage,157,test,pgexplainer,False,5.0,0,,0,{}
+sage,157,test,pagelink,True,2.0,8,,0,"{""ddi"": 6, ""dti"": 4, ""drug_disease"": 6, ""protein_disease"": 9}"
+sage,157,test,saliency,True,2.0,8,,0,"{""ddi"": 8, ""dti"": 8, ""protein_disease"": 8, ""drug_disease"": 1}"
+sage,157,test,ig,True,2.0,5,,0,"{""drug_disease"": 8, ""protein_disease"": 12}"
+sage,157,test,distance,True,2.0,8,,0,"{""drug_disease"": 8, ""protein_disease"": 17}"
+sage,157,test,random,False,,0,,0,{}
+sage,158,test,regex,True,3.0,2,,0,"{""drug_se"": 4, ""drug_disease"": 2, ""protein_disease"": 2}"
+sage,158,test,gnnexplainer,True,3.0,6,,0,"{""ddi"": 6, ""drug_disease"": 6, ""protein_disease"": 11}"
+sage,158,test,pgexplainer,False,,1,,0,"{""drug_se"": 4}"
+sage,158,test,pagelink,True,3.0,3,,0,"{""drug_se"": 4, ""drug_disease"": 3, ""protein_disease"": 3, ""ddi"": 1}"
+sage,158,test,saliency,True,3.0,7,,0,"{""ddi"": 5, ""drug_disease"": 7, ""protein_disease"": 10, ""drug_se"": 4}"
+sage,158,test,ig,True,3.0,5,,0,"{""ddi"": 5, ""drug_disease"": 5, ""protein_disease"": 9}"
+sage,158,test,distance,True,3.0,5,,0,"{""drug_se"": 20}"
+sage,158,test,random,False,7.0,5,,0,"{""drug_disease"": 5, ""protein_disease"": 15}"
+sage,159,test,regex,True,2.0,5,,0,"{""drug_se"": 20}"
+sage,159,test,gnnexplainer,True,2.0,5,,0,"{""drug_se"": 20}"
+sage,159,test,pgexplainer,True,3.0,5,,0,"{""drug_se"": 20}"
+sage,159,test,pagelink,True,2.0,8,,0,"{""dti"": 13, ""ddi"": 4, ""protein_disease"": 10}"
+sage,159,test,saliency,True,2.0,8,,0,"{""ddi"": 8, ""dti"": 8, ""protein_disease"": 7}"
+sage,159,test,ig,True,2.0,8,,0,"{""ddi"": 8, ""dti"": 8, ""protein_disease"": 8}"
+sage,159,test,distance,True,2.0,0,,0,{}
+sage,159,test,random,False,8.0,5,,0,"{""drug_se"": 20}"
+sage,160,test,regex,True,2.0,8,,0,"{""drug_disease"": 8, ""protein_disease"": 19}"
+sage,160,test,gnnexplainer,True,2.0,8,,0,"{""drug_disease"": 8, ""protein_disease"": 15}"
+sage,160,test,pgexplainer,True,2.0,0,,0,{}
+sage,160,test,pagelink,True,2.0,8,,0,"{""drug_disease"": 8, ""protein_disease"": 13}"
+sage,160,test,saliency,True,2.0,8,,0,"{""drug_disease"": 8, ""protein_disease"": 13}"
+sage,160,test,ig,True,2.0,8,,0,"{""drug_disease"": 8, ""protein_disease"": 15}"
+sage,160,test,distance,True,2.0,2,,0,"{""ddi"": 4, ""drug_disease"": 4}"
+sage,160,test,random,True,2.0,8,,0,"{""drug_disease"": 8, ""protein_disease"": 19}"
+sage,161,test,regex,True,2.0,0,,0,{}
+sage,161,test,gnnexplainer,True,2.0,8,,0,"{""drug_disease"": 8, ""protein_disease"": 18}"
+sage,161,test,pgexplainer,True,2.0,0,,0,{}
+sage,161,test,pagelink,True,2.0,1,,0,"{""drug_disease"": 1, ""protein_disease"": 1}"
+sage,161,test,saliency,True,4.0,3,,0,"{""drug_se"": 6, ""drug_disease"": 3, ""protein_disease"": 3}"
+sage,161,test,ig,True,2.0,8,,0,"{""drug_disease"": 8, ""protein_disease"": 20}"
+sage,161,test,distance,True,2.0,0,,0,{}
+sage,161,test,random,True,4.0,0,,0,{}
+sage,162,test,regex,True,2.0,8,,0,"{""drug_disease"": 9, ""protein_disease"": 19}"
+sage,162,test,gnnexplainer,True,2.0,8,,0,"{""drug_disease"": 8, ""protein_disease"": 15}"
+sage,162,test,pgexplainer,True,2.0,0,,0,{}
+sage,162,test,pagelink,True,2.0,8,,0,"{""drug_disease"": 8, ""protein_disease"": 17}"
+sage,162,test,saliency,True,2.0,8,,0,"{""drug_disease"": 8, ""protein_disease"": 15}"
+sage,162,test,ig,True,2.0,8,,0,"{""drug_disease"": 8, ""protein_disease"": 15}"
+sage,162,test,distance,True,2.0,5,,0,"{""drug_se"": 20}"
+sage,162,test,random,False,9.0,0,,0,{}
+sage,163,test,regex,True,2.0,8,,0,"{""drug_disease"": 8, ""protein_disease"": 20}"
+sage,163,test,gnnexplainer,True,2.0,8,,0,"{""drug_disease"": 8, ""protein_disease"": 17}"
+sage,163,test,pgexplainer,True,2.0,0,,0,{}
+sage,163,test,pagelink,True,2.0,3,,0,"{""drug_disease"": 3, ""protein_disease"": 6}"
+sage,163,test,saliency,True,2.0,8,,0,"{""drug_disease"": 8, ""protein_disease"": 19}"
+sage,163,test,ig,True,2.0,8,,0,"{""drug_disease"": 8, ""protein_disease"": 19}"
+sage,163,test,distance,True,2.0,6,,0,"{""ddi"": 6, ""drug_disease"": 6, ""protein_disease"": 11}"
+sage,163,test,random,False,12.0,2,,0,"{""drug_disease"": 3, ""protein_disease"": 5}"
+sage,164,test,regex,True,4.0,5,,0,"{""drug_disease"": 5, ""protein_disease"": 15}"
+sage,164,test,gnnexplainer,True,2.0,5,,0,"{""drug_se"": 14, ""drug_disease"": 4, ""protein_disease"": 2}"
+sage,164,test,pgexplainer,False,,5,,0,"{""drug_disease"": 5, ""protein_disease"": 15}"
+sage,164,test,pagelink,False,,0,,0,{}
+sage,164,test,saliency,True,4.0,0,,0,{}
+sage,164,test,ig,True,4.0,0,,0,{}
+sage,164,test,distance,True,2.0,0,,0,{}
+sage,164,test,random,True,4.0,0,,0,{}
+sage,165,test,regex,True,2.0,8,,0,"{""drug_disease"": 8, ""protein_disease"": 19}"
+sage,165,test,gnnexplainer,True,2.0,8,,0,"{""drug_disease"": 8, ""protein_disease"": 17}"
+sage,165,test,pgexplainer,True,2.0,1,,0,"{""drug_disease"": 2, ""protein_disease"": 2}"
+sage,165,test,pagelink,True,2.0,8,,0,"{""drug_disease"": 10, ""protein_disease"": 14}"
+sage,165,test,saliency,True,2.0,8,,0,"{""ddi"": 8, ""drug_disease"": 8, ""protein_disease"": 13}"
+sage,165,test,ig,True,2.0,8,,0,"{""drug_disease"": 8, ""protein_disease"": 16}"
+sage,165,test,distance,True,2.0,8,,0,"{""drug_disease"": 8, ""protein_disease"": 17}"
+sage,165,test,random,False,20.0,5,,0,"{""drug_disease"": 5, ""protein_disease"": 15}"
+sage,166,test,regex,True,4.0,5,,0,"{""drug_disease"": 6, ""protein_disease"": 14}"
+sage,166,test,gnnexplainer,False,,0,,0,{}
+sage,166,test,pgexplainer,False,,0,,0,{}
+sage,166,test,pagelink,True,2.0,8,,0,"{""drug_disease"": 10, ""protein_disease"": 16}"
+sage,166,test,saliency,True,2.0,8,,0,"{""drug_disease"": 8, ""protein_disease"": 18}"
+sage,166,test,ig,True,2.0,8,,0,"{""drug_disease"": 8, ""protein_disease"": 18}"
+sage,166,test,distance,True,2.0,0,,0,{}
+sage,166,test,random,False,,1,,0,"{""ddi"": 1, ""drug_disease"": 1, ""protein_disease"": 2}"
+sage,167,test,regex,False,,0,,0,{}
+sage,167,test,gnnexplainer,True,2.0,5,,0,"{""drug_disease"": 12, ""drug_se"": 6, ""protein_disease"": 2}"
+sage,167,test,pgexplainer,False,,5,,0,"{""drug_disease"": 5, ""protein_disease"": 15}"
+sage,167,test,pagelink,False,8.0,5,,0,"{""drug_disease"": 14, ""protein_disease"": 2, ""drug_se"": 4}"
+sage,167,test,saliency,False,6.0,5,,0,"{""drug_disease"": 5, ""protein_disease"": 15}"
+sage,167,test,ig,False,10.0,4,,0,"{""drug_se"": 16}"
+sage,167,test,distance,True,2.0,8,,0,"{""drug_disease"": 9, ""protein_disease"": 16}"
+sage,167,test,random,False,8.0,0,,0,{}
+sage,168,test,regex,False,5.0,4,,0,"{""drug_se"": 16}"
+sage,168,test,gnnexplainer,False,,5,,0,"{""drug_se"": 20}"
+sage,168,test,pgexplainer,False,,5,,0,"{""drug_se"": 4, ""dti"": 4, ""protein_disease"": 12}"
+sage,168,test,pagelink,False,,0,,0,{}
+sage,168,test,saliency,False,,2,,0,"{""drug_se"": 8}"
+sage,168,test,ig,False,,5,,0,"{""drug_se"": 20}"
+sage,168,test,distance,True,4.0,0,,0,{}
+sage,168,test,random,False,,2,,0,"{""drug_se"": 8}"
+sage,169,test,regex,True,2.0,5,,0,"{""drug_disease"": 17, ""protein_disease"": 3}"
+sage,169,test,gnnexplainer,True,2.0,8,,0,"{""drug_disease"": 8, ""protein_disease"": 20}"
+sage,169,test,pgexplainer,False,,0,,0,{}
+sage,169,test,pagelink,True,2.0,1,,0,"{""drug_disease"": 1, ""protein_disease"": 1}"
+sage,169,test,saliency,False,6.0,1,,0,"{""ddi"": 1, ""drug_se"": 3}"
+sage,169,test,ig,True,2.0,8,,0,"{""drug_disease"": 8, ""protein_disease"": 20}"
+sage,169,test,distance,True,2.0,1,,0,"{""ddi"": 1, ""drug_disease"": 1, ""protein_disease"": 2}"
+sage,169,test,random,False,,5,,0,"{""drug_disease"": 5, ""protein_disease"": 15}"
+sage,170,test,regex,True,2.0,8,,0,"{""drug_disease"": 8, ""protein_disease"": 21}"
+sage,170,test,gnnexplainer,True,2.0,8,,0,"{""drug_disease"": 8, ""protein_disease"": 16}"
+sage,170,test,pgexplainer,False,,0,,0,{}
+sage,170,test,pagelink,True,2.0,8,,0,"{""drug_disease"": 8, ""protein_disease"": 13}"
+sage,170,test,saliency,True,2.0,8,,0,"{""drug_disease"": 8, ""protein_disease"": 17}"
+sage,170,test,ig,True,2.0,8,,0,"{""drug_disease"": 8, ""protein_disease"": 13}"
+sage,170,test,distance,True,2.0,8,,0,"{""drug_disease"": 8, ""protein_disease"": 17}"
+sage,170,test,random,True,4.0,4,,0,"{""drug_disease"": 14, ""protein_disease"": 2}"
+sage,171,test,regex,True,2.0,4,,0,"{""drug_se"": 8, ""drug_disease"": 5, ""protein_disease"": 3}"
+sage,171,test,gnnexplainer,False,12.0,0,,0,{}
+sage,171,test,pgexplainer,True,4.0,0,,0,{}
+sage,171,test,pagelink,True,2.0,3,,0,"{""drug_se"": 2, ""dti"": 3, ""ddi"": 3}"
+sage,171,test,saliency,True,2.0,8,,0,"{""ddi"": 8, ""dti"": 8, ""protein_disease"": 9}"
+sage,171,test,ig,True,2.0,8,,0,"{""ddi"": 8, ""dti"": 8, ""protein_disease"": 9}"
+sage,171,test,distance,True,2.0,0,,0,{}
+sage,171,test,random,False,,0,,0,{}
+sage,172,test,regex,True,2.0,8,,0,"{""drug_disease"": 9, ""protein_disease"": 15}"
+sage,172,test,gnnexplainer,True,2.0,8,,0,"{""drug_disease"": 10, ""protein_disease"": 15}"
+sage,172,test,pgexplainer,True,2.0,0,,0,{}
+sage,172,test,pagelink,True,2.0,8,,0,"{""drug_disease"": 12, ""protein_disease"": 13, ""ddi"": 2}"
+sage,172,test,saliency,True,2.0,0,,0,{}
+sage,172,test,ig,True,2.0,8,,0,"{""drug_disease"": 10, ""protein_disease"": 14}"
+sage,172,test,distance,True,2.0,0,,0,{}
+sage,172,test,random,False,,0,,0,{}
+sage,173,test,regex,True,2.0,8,,0,"{""drug_disease"": 8, ""protein_disease"": 20}"
+sage,173,test,gnnexplainer,True,2.0,8,,0,"{""drug_disease"": 8, ""protein_disease"": 19}"
+sage,173,test,pgexplainer,True,2.0,1,,0,"{""drug_disease"": 1, ""protein_disease"": 1}"
+sage,173,test,pagelink,True,2.0,8,,0,"{""drug_disease"": 10, ""protein_disease"": 16}"
+sage,173,test,saliency,False,6.0,5,,0,"{""ddi"": 5, ""drug_se"": 10, ""drug_disease"": 5}"
+sage,173,test,ig,True,2.0,7,,0,"{""drug_disease"": 7, ""protein_disease"": 18}"
+sage,173,test,distance,True,2.0,2,,0,"{""drug_se"": 4, ""drug_disease"": 2, ""protein_disease"": 2}"
+sage,173,test,random,False,10.0,5,,0,"{""drug_disease"": 11, ""protein_disease"": 1, ""drug_se"": 8}"
+sage,174,test,regex,True,2.0,8,,0,"{""ddi"": 8, ""dti"": 8, ""protein_disease"": 7}"
+sage,174,test,gnnexplainer,True,2.0,8,,0,"{""ddi"": 8, ""dti"": 8, ""protein_disease"": 11}"
+sage,174,test,pgexplainer,True,2.0,5,,0,"{""drug_disease"": 5, ""protein_disease"": 15}"
+sage,174,test,pagelink,True,2.0,8,,0,"{""ddi"": 8, ""drug_disease"": 6, ""protein_disease"": 9, ""dti"": 4}"
+sage,174,test,saliency,True,2.0,8,,0,"{""ddi"": 8, ""dti"": 8, ""protein_disease"": 6, ""drug_disease"": 1}"
+sage,174,test,ig,True,2.0,8,,0,"{""ddi"": 5, ""dti"": 7, ""protein_disease"": 6, ""drug_disease"": 4}"
+sage,174,test,distance,True,2.0,0,,0,{}
+sage,174,test,random,False,,3,,0,"{""drug_se"": 6, ""drug_disease"": 3, ""protein_disease"": 3}"
+sage,175,test,regex,True,2.0,1,,0,"{""dti"": 1, ""protein_disease"": 3}"
+sage,175,test,gnnexplainer,True,2.0,8,,0,"{""drug_disease"": 8, ""protein_disease"": 18}"
+sage,175,test,pgexplainer,False,6.0,5,,0,"{""drug_disease"": 5, ""protein_disease"": 15}"
+sage,175,test,pagelink,True,2.0,8,,0,"{""dti"": 3, ""ppi"": 5, ""drug_disease"": 5, ""protein_disease"": 9}"
+sage,175,test,saliency,True,2.0,8,,0,"{""drug_disease"": 7, ""protein_disease"": 12, ""ppi"": 4, ""dti"": 2}"
+sage,175,test,ig,True,2.0,8,,0,"{""drug_disease"": 10, ""protein_disease"": 14}"
+sage,175,test,distance,True,2.0,8,,0,"{""drug_disease"": 8, ""protein_disease"": 17}"
+sage,175,test,random,False,14.0,5,,0,"{""drug_disease"": 5, ""protein_disease"": 15}"
+sage,176,test,regex,True,2.0,8,,0,"{""drug_disease"": 9, ""protein_disease"": 17}"
+sage,176,test,gnnexplainer,True,2.0,8,,0,"{""drug_disease"": 9, ""protein_disease"": 17}"
+sage,176,test,pgexplainer,True,2.0,0,,0,{}
+sage,176,test,pagelink,True,2.0,8,,0,"{""ddi"": 6, ""drug_disease"": 9, ""protein_disease"": 13}"
+sage,176,test,saliency,True,2.0,5,,0,"{""drug_se"": 10, ""drug_disease"": 10}"
+sage,176,test,ig,True,2.0,8,,0,"{""drug_disease"": 10, ""protein_disease"": 14}"
+sage,176,test,distance,True,2.0,0,,0,{}
+sage,176,test,random,False,10.0,5,,0,"{""drug_disease"": 10, ""drug_se"": 10}"
+sage,177,test,regex,True,4.0,4,,0,"{""drug_disease"": 4, ""protein_disease"": 12}"
+sage,177,test,gnnexplainer,False,22.0,4,,0,"{""drug_disease"": 14, ""protein_disease"": 2}"
+sage,177,test,pgexplainer,False,,5,,0,"{""drug_se"": 10, ""drug_disease"": 5, ""protein_disease"": 5}"
+sage,177,test,pagelink,False,6.0,5,,0,"{""drug_disease"": 7, ""protein_disease"": 13}"
+sage,177,test,saliency,True,4.0,5,,0,"{""drug_disease"": 5, ""protein_disease"": 15}"
+sage,177,test,ig,True,4.0,5,,0,"{""drug_se"": 12, ""drug_disease"": 2, ""protein_disease"": 6}"
+sage,177,test,distance,True,4.0,1,,0,"{""drug_disease"": 1, ""protein_disease"": 3}"
+sage,177,test,random,True,3.0,1,,0,"{""ddi"": 1, ""drug_disease"": 1, ""protein_disease"": 2}"
+sage,178,test,regex,False,,5,,0,"{""drug_se"": 16, ""drug_disease"": 2, ""protein_disease"": 2}"
+sage,178,test,gnnexplainer,True,4.0,5,,0,"{""drug_se"": 20}"
+sage,178,test,pgexplainer,False,,5,,0,"{""drug_disease"": 5, ""protein_disease"": 15}"
+sage,178,test,pagelink,False,,0,,0,{}
+sage,178,test,saliency,False,,5,,0,"{""drug_se"": 10, ""drug_disease"": 5, ""protein_disease"": 5}"
+sage,178,test,ig,False,,5,,0,"{""drug_se"": 10, ""drug_disease"": 5, ""protein_disease"": 5}"
+sage,178,test,distance,True,2.0,3,,0,"{""drug_disease"": 3, ""protein_disease"": 9}"
+sage,178,test,random,False,,5,,0,"{""drug_disease"": 5, ""protein_disease"": 15}"
+sage,179,test,regex,False,,5,,0,"{""drug_se"": 20}"
+sage,179,test,gnnexplainer,False,10.0,5,,0,"{""drug_se"": 20}"
+sage,179,test,pgexplainer,False,,1,,0,"{""drug_se"": 4}"
+sage,179,test,pagelink,True,3.0,1,,0,"{""dti"": 1, ""protein_disease"": 2}"
+sage,179,test,saliency,True,3.0,4,,0,"{""drug_se"": 16}"
+sage,179,test,ig,False,6.0,0,,0,{}
+sage,179,test,distance,True,4.0,0,,0,{}
+sage,179,test,random,False,,5,,0,"{""drug_se"": 20}"
+sage,180,test,regex,True,4.0,2,,0,"{""ddi"": 7, ""drug_se"": 1}"
+sage,180,test,gnnexplainer,False,,0,,0,{}
+sage,180,test,pgexplainer,False,,0,,0,{}
+sage,180,test,pagelink,True,3.0,2,,0,"{""ddi"": 4, ""drug_disease"": 2, ""protein_disease"": 2}"
+sage,180,test,saliency,True,3.0,5,,0,"{""ddi"": 10, ""drug_se"": 9, ""drug_disease"": 1}"
+sage,180,test,ig,True,3.0,5,,0,"{""ddi"": 15, ""drug_se"": 5}"
+sage,180,test,distance,True,3.0,5,,0,"{""ddi"": 5, ""drug_disease"": 14, ""drug_se"": 1}"
+sage,180,test,random,False,7.0,3,,0,"{""ddi"": 3, ""drug_disease"": 9}"
+sage,181,test,regex,True,4.0,1,,0,"{""drug_disease"": 1, ""protein_disease"": 3}"
+sage,181,test,gnnexplainer,False,,5,,0,"{""drug_se"": 20}"
+sage,181,test,pgexplainer,False,,0,,0,{}
+sage,181,test,pagelink,False,10.0,0,,0,{}
+sage,181,test,saliency,False,6.0,5,,0,"{""drug_se"": 20}"
+sage,181,test,ig,False,6.0,5,,0,"{""drug_se"": 20}"
+sage,181,test,distance,True,2.0,2,,0,"{""drug_se"": 4, ""drug_disease"": 2, ""protein_disease"": 2}"
+sage,181,test,random,False,10.0,5,,0,"{""drug_se"": 20}"
+sage,182,test,regex,True,2.0,5,,0,"{""drug_se"": 20}"
+sage,182,test,gnnexplainer,True,2.0,8,,0,"{""drug_disease"": 8, ""protein_disease"": 17}"
+sage,182,test,pgexplainer,True,2.0,0,,0,{}
+sage,182,test,pagelink,True,2.0,8,,0,"{""dti"": 2, ""protein_disease"": 20, ""drug_disease"": 6}"
+sage,182,test,saliency,False,6.0,5,,0,"{""drug_se"": 20}"
+sage,182,test,ig,True,2.0,8,,0,"{""drug_disease"": 8, ""protein_disease"": 20}"
+sage,182,test,distance,True,2.0,5,,0,"{""drug_se"": 20}"
+sage,182,test,random,False,,5,,0,"{""drug_se"": 20}"
+sage,183,test,regex,False,6.0,1,,0,"{""ddi"": 1, ""drug_disease"": 3}"
+sage,183,test,gnnexplainer,False,6.0,2,,0,"{""ddi"": 2, ""drug_disease"": 2, ""protein_disease"": 4}"
+sage,183,test,pgexplainer,False,,0,,0,{}
+sage,183,test,pagelink,True,3.0,2,,0,"{""drug_disease"": 1, ""protein_disease"": 5, ""dti"": 1}"
+sage,183,test,saliency,False,8.0,3,,0,"{""ddi"": 3, ""drug_disease"": 6, ""drug_se"": 1, ""protein_disease"": 2}"
+sage,183,test,ig,False,8.0,5,,0,"{""ddi"": 5, ""drug_disease"": 14, ""drug_se"": 1}"
+sage,183,test,distance,True,2.0,0,,0,{}
+sage,183,test,random,True,4.0,5,,0,"{""drug_disease"": 5, ""protein_disease"": 15}"
+sage,184,test,regex,True,2.0,8,,0,"{""drug_disease"": 8, ""protein_disease"": 19}"
+sage,184,test,gnnexplainer,True,2.0,8,,0,"{""drug_disease"": 8, ""protein_disease"": 13}"
+sage,184,test,pgexplainer,True,2.0,5,,0,"{""drug_disease"": 5, ""protein_disease"": 15}"
+sage,184,test,pagelink,True,2.0,8,,0,"{""drug_disease"": 8, ""protein_disease"": 12}"
+sage,184,test,saliency,True,2.0,8,,0,"{""drug_disease"": 8, ""protein_disease"": 17}"
+sage,184,test,ig,True,2.0,8,,0,"{""drug_disease"": 8, ""protein_disease"": 13}"
+sage,184,test,distance,True,2.0,8,,0,"{""drug_disease"": 8, ""protein_disease"": 17}"
+sage,184,test,random,True,4.0,1,,0,"{""drug_disease"": 1, ""protein_disease"": 3}"
+sage,185,test,regex,True,2.0,8,,0,"{""drug_disease"": 8, ""protein_disease"": 19}"
+sage,185,test,gnnexplainer,True,2.0,8,,0,"{""drug_disease"": 9, ""protein_disease"": 16}"
+sage,185,test,pgexplainer,True,2.0,5,,0,"{""drug_disease"": 5, ""protein_disease"": 15}"
+sage,185,test,pagelink,True,2.0,1,,0,"{""drug_disease"": 1, ""protein_disease"": 1}"
+sage,185,test,saliency,False,6.0,5,,0,"{""drug_se"": 10, ""drug_disease"": 7, ""protein_disease"": 3}"
+sage,185,test,ig,True,2.0,8,,0,"{""drug_disease"": 8, ""protein_disease"": 19}"
+sage,185,test,distance,True,2.0,0,,0,{}
+sage,185,test,random,False,6.0,5,,0,"{""drug_disease"": 5, ""protein_disease"": 15}"
+sage,186,test,regex,True,4.0,3,,0,"{""dti"": 3, ""protein_disease"": 9}"
+sage,186,test,gnnexplainer,False,6.0,4,,0,"{""drug_se"": 16}"
+sage,186,test,pgexplainer,False,,0,,0,{}
+sage,186,test,pagelink,False,,0,,0,{}
+sage,186,test,saliency,True,3.0,6,,0,"{""dti"": 6, ""protein_disease"": 17}"
+sage,186,test,ig,True,3.0,5,,0,"{""drug_se"": 20}"
+sage,186,test,distance,True,2.0,1,,0,"{""drug_se"": 2, ""drug_disease"": 1, ""protein_disease"": 1}"
+sage,186,test,random,False,6.0,4,,0,"{""drug_se"": 8, ""drug_disease"": 4, ""protein_disease"": 4}"
+sage,187,test,regex,True,2.0,5,,0,"{""drug_disease"": 5, ""protein_disease"": 15}"
+sage,187,test,gnnexplainer,True,2.0,8,,0,"{""drug_disease"": 8, ""protein_disease"": 19}"
+sage,187,test,pgexplainer,True,4.0,2,,0,"{""drug_se"": 4, ""drug_disease"": 4}"
+sage,187,test,pagelink,True,2.0,8,,0,"{""dti"": 2, ""protein_disease"": 17, ""drug_disease"": 6}"
+sage,187,test,saliency,True,2.0,8,,0,"{""drug_disease"": 8, ""protein_disease"": 19}"
+sage,187,test,ig,True,2.0,8,,0,"{""drug_disease"": 8, ""protein_disease"": 16}"
+sage,187,test,distance,True,2.0,8,,0,"{""drug_disease"": 8, ""protein_disease"": 17}"
+sage,187,test,random,False,6.0,5,,0,"{""drug_disease"": 6, ""protein_disease"": 14}"
+sage,188,test,regex,False,,5,,0,"{""drug_se"": 20}"
+sage,188,test,gnnexplainer,True,2.0,5,,0,"{""drug_se"": 20}"
+sage,188,test,pgexplainer,True,2.0,5,,0,"{""drug_se"": 14, ""ddi"": 5, ""drug_disease"": 1}"
+sage,188,test,pagelink,True,2.0,8,,0,"{""ddi"": 7, ""drug_disease"": 8, ""protein_disease"": 14}"
+sage,188,test,saliency,True,2.0,8,,0,"{""drug_disease"": 8, ""protein_disease"": 17}"
+sage,188,test,ig,False,6.0,4,,0,"{""drug_se"": 16}"
+sage,188,test,distance,True,2.0,0,,0,{}
+sage,188,test,random,False,,0,,0,{}
+sage,189,test,regex,True,2.0,8,,0,"{""drug_disease"": 8, ""protein_disease"": 20}"
+sage,189,test,gnnexplainer,True,2.0,8,,0,"{""drug_disease"": 9, ""protein_disease"": 18}"
+sage,189,test,pgexplainer,True,3.0,0,,0,{}
+sage,189,test,pagelink,True,2.0,1,,0,"{""drug_disease"": 1, ""protein_disease"": 1}"
+sage,189,test,saliency,True,3.0,1,,0,"{""dti"": 1, ""protein_disease"": 3}"
+sage,189,test,ig,True,2.0,8,,0,"{""drug_disease"": 8, ""protein_disease"": 20}"
+sage,189,test,distance,True,2.0,2,,0,"{""drug_disease"": 2, ""protein_disease"": 6}"
+sage,189,test,random,False,5.0,0,,0,{}
+sage,190,test,regex,False,,2,,0,"{""ddi"": 3, ""drug_se"": 4, ""drug_disease"": 1}"
+sage,190,test,gnnexplainer,True,4.0,3,,0,"{""ddi"": 5, ""drug_se"": 6, ""drug_disease"": 1}"
+sage,190,test,pgexplainer,False,,0,,0,{}
+sage,190,test,pagelink,False,,0,,0,{}
+sage,190,test,saliency,False,6.0,5,,0,"{""ddi"": 1, ""drug_se"": 19}"
+sage,190,test,ig,False,6.0,5,,0,"{""drug_se"": 10, ""drug_disease"": 5, ""protein_disease"": 5}"
+sage,190,test,distance,True,2.0,8,,0,"{""drug_disease"": 8, ""protein_disease"": 17}"
+sage,190,test,random,True,4.0,0,,0,{}
+sage,191,test,regex,True,4.0,1,,0,"{""drug_se"": 2, ""drug_disease"": 1, ""protein_disease"": 1}"
+sage,191,test,gnnexplainer,True,4.0,5,,0,"{""drug_disease"": 11, ""protein_disease"": 9}"
+sage,191,test,pgexplainer,False,,5,,0,"{""drug_disease"": 5, ""protein_disease"": 15}"
+sage,191,test,pagelink,False,,0,,0,{}
+sage,191,test,saliency,False,8.0,4,,0,"{""drug_se"": 8, ""drug_disease"": 4, ""protein_disease"": 4}"
+sage,191,test,ig,False,8.0,4,,0,"{""drug_se"": 8, ""drug_disease"": 4, ""protein_disease"": 4}"
+sage,191,test,distance,True,2.0,3,,0,"{""drug_disease"": 3, ""protein_disease"": 9}"
+sage,191,test,random,False,,2,,0,"{""drug_se"": 4, ""drug_disease"": 4}"

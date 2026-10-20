@@ -1,0 +1,9 @@
+cohort,method,connected,curated_hit,n
+test,distance,1.0,,576
+test,gnnexplainer,0.8472222222222222,,576
+test,ig,0.8020833333333334,,576
+test,pagelink,0.7326388888888888,,576
+test,pgexplainer,0.2482638888888889,,576
+test,random,0.2916666666666667,,576
+test,regex,0.7465277777777778,,576
+test,saliency,0.8177083333333334,,576
